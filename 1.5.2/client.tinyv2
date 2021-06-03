@@ -1,4 +1,4 @@
-tiny	2	0	official	mcp
+tiny	2	0	official	named
 c	a	net/minecraft/src/EnumChatFormatting
 	m	()C	a	func_96298_a
 	m	(ZZ)Ljava/util/Collection;	a	func_96296_a

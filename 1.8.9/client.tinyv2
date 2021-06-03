@@ -1,4 +1,4 @@
-tiny	2	0	official	mcp
+tiny	2	0	official	named
 c	a	net/minecraft/util/EnumChatFormatting
 	m	(I)La;	a	func_175744_a
 	m	(Ljava/lang/String;)Ljava/lang/String;	a	getTextWithoutFormattingCodes
