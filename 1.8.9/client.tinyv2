@@ -1,4 +1,5 @@
 tiny	2	0	official	named
+c	com/google/common/base/Objects	com/google/common/base/MoreObjects
 c	a	net/minecraft/util/EnumChatFormatting
 	m	(Ljava/lang/String;)Ljava/lang/String;	c	func_175745_c
 	f	La;	c	DARK_GREEN
