@@ -980,7 +980,7 @@ c	cq$a	net/minecraft/util/EnumFacing$Axis
 	m	()Z	b	func_176720_b
 	m	()Z	c	func_176722_c
 	m	()Lcq$c;	d	func_176716_d
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lcq$a;	a	X
 	f	Lcq$a;	b	Y
 	f	Lcq$a;	c	Z
@@ -11897,7 +11897,7 @@ c	afe$b	net/minecraft/block/BlockRailBase$EnumRailDirection
 	m	()I	a	func_177015_a
 	m	(I)Lafe$b;	a	func_177016_a
 	m	()Z	c	func_177018_c
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lafe$b;	a	NORTH_SOUTH
 	f	Lafe$b;	b	EAST_WEST
 	f	Lafe$b;	c	ASCENDING_EAST
@@ -11951,7 +11951,7 @@ c	afg	net/minecraft/block/BlockBed
 	f	Lamm;	a	PART
 	f	Lamk;	b	OCCUPIED
 c	afg$a	net/minecraft/block/BlockBed$EnumPartType
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lafg$a;	a	HEAD
 	f	Lafg$a;	b	FOOT
 	f	Ljava/lang/String;	c	field_177036_c
@@ -12596,7 +12596,7 @@ c	afx$1	net/minecraft/block/BlockRedstoneComparator$1
 	f	Lcq;	a	field_180418_a
 	f	Lafx;	b	field_180417_b
 c	afx$a	net/minecraft/block/BlockRedstoneComparator$Mode
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lafx$a;	a	COMPARE
 	f	Lafx$a;	b	SUBTRACT
 	f	Ljava/lang/String;	c	field_177041_c
@@ -12729,7 +12729,7 @@ c	agf$a	net/minecraft/block/BlockDirt$DirtType
 	m	(I)Lagf$a;	a	func_176924_a
 	m	()Ljava/lang/String;	c	func_176927_c
 	m	()Larn;	d	func_181066_d
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lagf$a;	a	DIRT
 	f	Lagf$a;	b	COARSE_DIRT
 	f	Lagf$a;	c	PODZOL
@@ -12803,12 +12803,12 @@ c	agh	net/minecraft/block/BlockDoor
 	f	Laml;	a	FACING
 	f	Lamk;	b	OPEN
 c	agh$a	net/minecraft/block/BlockDoor$EnumDoorHalf
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lagh$a;	a	UPPER
 	f	Lagh$a;	b	LOWER
 	f	[Lagh$a;	c	$VALUES
 c	agh$b	net/minecraft/block/BlockDoor$EnumHingePosition
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lagh$b;	a	LEFT
 	f	Lagh$b;	b	RIGHT
 	f	[Lagh$b;	c	$VALUES
@@ -12841,7 +12841,7 @@ c	agi	net/minecraft/block/BlockDoublePlant
 	f	Lamm;	a	VARIANT
 	f	Lamm;	b	HALF
 c	agi$a	net/minecraft/block/BlockDoublePlant$EnumBlockHalf
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lagi$a;	a	UPPER
 	f	Lagi$a;	b	LOWER
 	f	[Lagi$a;	c	$VALUES
@@ -12849,7 +12849,7 @@ c	agi$b	net/minecraft/block/BlockDoublePlant$EnumPlantType
 	m	()I	a	func_176936_a
 	m	(I)Lagi$b;	a	func_176938_a
 	m	()Ljava/lang/String;	c	func_176939_c
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lagi$b;	a	SUNFLOWER
 	f	Lagi$b;	b	SYRINGA
 	f	Lagi$b;	c	GRASS
@@ -13060,7 +13060,7 @@ c	agw$a	net/minecraft/block/BlockFlower$EnumFlowerType
 	m	(Lagw$b;I)Lagw$a;	a	func_176967_a
 	m	()I	b	func_176968_b
 	m	()Ljava/lang/String;	d	func_176963_d
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lagw$a;	a	DANDELION
 	f	Lagw$a;	b	POPPY
 	f	Lagw$a;	c	BLUE_ORCHID
@@ -13114,7 +13114,7 @@ c	agx$1	net/minecraft/block/BlockFlowerPot$1
 	f	[I	a	field_180353_a
 	f	[I	b	field_180352_b
 c	agx$a	net/minecraft/block/BlockFlowerPot$EnumFlowerType
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lagx$a;	a	EMPTY
 	f	Lagx$a;	b	POPPY
 	f	Lagx$a;	c	BLUE_ORCHID
@@ -13216,7 +13216,7 @@ c	ahh	net/minecraft/block/BlockSlab
 	m	()Lamo;	n	getVariantProperty
 	f	Lamm;	a	HALF
 c	ahh$a	net/minecraft/block/BlockSlab$EnumBlockHalf
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lahh$a;	a	TOP
 	f	Lahh$a;	b	BOTTOM
 	f	Ljava/lang/String;	c	field_176988_c
@@ -13280,7 +13280,7 @@ c	aho$1	net/minecraft/block/BlockHugeMushroom$1
 c	aho$a	net/minecraft/block/BlockHugeMushroom$EnumType
 	m	()I	a	func_176896_a
 	m	(I)Laho$a;	a	func_176895_a
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Laho$a;	a	NORTH_WEST
 	f	Laho$a;	b	NORTH
 	f	Laho$a;	c	NORTH_EAST
@@ -13395,7 +13395,7 @@ c	ahu$a	net/minecraft/block/BlockLever$EnumOrientation
 	m	(I)Lahu$a;	a	func_176853_a
 	m	(Lcq;Lcq;)Lahu$a;	a	func_176856_a
 	m	()Lcq;	c	func_176852_c
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lahu$a;	a	DOWN_X
 	f	Lahu$a;	b	EAST
 	f	Lahu$a;	c	WEST
@@ -13450,7 +13450,7 @@ c	ahw$1	net/minecraft/block/BlockLog$1
 	f	[I	a	field_180167_a
 c	ahw$a	net/minecraft/block/BlockLog$EnumAxis
 	m	(Lcq$a;)Lahw$a;	a	func_176870_a
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lahw$a;	a	X
 	f	Lahw$a;	b	Y
 	f	Lahw$a;	c	Z
@@ -13489,7 +13489,7 @@ c	ahz$a	net/minecraft/block/BlockSilverfish$EnumType
 	m	(Lalz;)Lahz$a;	a	func_176878_a
 	m	()Ljava/lang/String;	c	func_176882_c
 	m	()Lalz;	d	func_176883_d
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lahz$a;	a	STONE
 	f	Lahz$a;	b	COBBLESTONE
 	f	Lahz$a;	c	STONEBRICK
@@ -13594,7 +13594,7 @@ c	aih$a	net/minecraft/block/BlockStoneSlabNew$EnumType
 	m	(I)Laih$a;	a	func_176916_a
 	m	()Larn;	c	func_181068_c
 	m	()Ljava/lang/String;	d	func_176918_c
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Laih$a;	a	RED_SANDSTONE
 	f	[Laih$a;	b	field_176921_b
 	f	I	c	field_176922_c
@@ -13665,7 +13665,7 @@ c	aio$a	net/minecraft/block/BlockPlanks$EnumType
 	m	(I)Laio$a;	a	func_176837_a
 	m	()Larn;	c	func_181070_c
 	m	()Ljava/lang/String;	d	func_176840_c
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Laio$a;	a	OAK
 	f	Laio$a;	b	SPRUCE
 	f	Laio$a;	c	BIRCH
@@ -13770,7 +13770,7 @@ c	aiu$a	net/minecraft/block/BlockPrismarine$EnumType
 	m	()I	a	func_176807_a
 	m	(I)Laiu$a;	a	func_176810_a
 	m	()Ljava/lang/String;	c	func_176809_c
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Laiu$a;	a	ROUGH
 	f	Laiu$a;	b	BRICKS
 	f	Laiu$a;	c	DARK
@@ -13814,7 +13814,7 @@ c	aiw$1	net/minecraft/block/BlockQuartz$1
 c	aiw$a	net/minecraft/block/BlockQuartz$EnumType
 	m	()I	a	func_176796_a
 	m	(I)Laiw$a;	a	func_176794_a
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Laiw$a;	a	DEFAULT
 	f	Laiw$a;	b	CHISELED
 	f	Laiw$a;	c	LINES_Y
@@ -13845,7 +13845,7 @@ c	aiz$a	net/minecraft/block/BlockRedSandstone$EnumType
 	m	()I	a	func_176827_a
 	m	(I)Laiz$a;	a	func_176825_a
 	m	()Ljava/lang/String;	c	func_176828_c
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Laiz$a;	a	DEFAULT
 	f	Laiz$a;	b	CHISELED
 	f	Laiz$a;	c	SMOOTH
@@ -13907,7 +13907,7 @@ c	ajb	net/minecraft/block/BlockRedstoneWire
 	f	Lamm;	a	NORTH
 	f	Lamm;	b	EAST
 c	ajb$a	net/minecraft/block/BlockRedstoneWire$EnumAttachPosition
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lajb$a;	a	UP
 	f	Lajb$a;	b	SIDE
 	f	Lajb$a;	c	NONE
@@ -13992,7 +13992,7 @@ c	ajh$a	net/minecraft/block/BlockSand$EnumType
 	m	(I)Lajh$a;	a	func_176686_a
 	m	()Larn;	c	func_176687_c
 	m	()Ljava/lang/String;	d	func_176685_d
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lajh$a;	a	SAND
 	f	Lajh$a;	b	RED_SAND
 	f	[Lajh$a;	c	field_176695_c
@@ -14013,7 +14013,7 @@ c	aji$a	net/minecraft/block/BlockSandStone$EnumType
 	m	()I	a	func_176675_a
 	m	(I)Laji$a;	a	func_176673_a
 	m	()Ljava/lang/String;	c	func_176676_c
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Laji$a;	a	DEFAULT
 	f	Laji$a;	b	CHISELED
 	f	Laji$a;	c	SMOOTH
@@ -14206,13 +14206,13 @@ c	aju	net/minecraft/block/BlockStairs
 	f	Laml;	a	FACING
 	f	Lamm;	b	HALF
 c	aju$a	net/minecraft/block/BlockStairs$EnumHalf
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Laju$a;	a	TOP
 	f	Laju$a;	b	BOTTOM
 	f	Ljava/lang/String;	c	field_176709_c
 	f	[Laju$a;	d	$VALUES
 c	aju$b	net/minecraft/block/BlockStairs$EnumShape
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Laju$b;	a	STRAIGHT
 	f	Laju$b;	b	INNER_LEFT
 	f	Laju$b;	c	INNER_RIGHT
@@ -14271,7 +14271,7 @@ c	ajy$a	net/minecraft/block/BlockStone$EnumType
 	m	(I)Lajy$a;	a	func_176643_a
 	m	()Larn;	c	func_181072_c
 	m	()Ljava/lang/String;	d	func_176644_c
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lajy$a;	a	STONE
 	f	Lajy$a;	b	GRANITE
 	f	Lajy$a;	c	GRANITE_SMOOTH
@@ -14300,7 +14300,7 @@ c	ajz$a	net/minecraft/block/BlockStoneBrick$EnumType
 	m	()I	a	func_176612_a
 	m	(I)Lajz$a;	a	func_176613_a
 	m	()Ljava/lang/String;	c	func_176614_c
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lajz$a;	a	DEFAULT
 	f	Lajz$a;	b	MOSSY
 	f	Lajz$a;	c	CRACKED
@@ -14330,7 +14330,7 @@ c	akb$a	net/minecraft/block/BlockStoneSlab$EnumType
 	m	(I)Lakb$a;	a	func_176625_a
 	m	()Larn;	c	func_181074_c
 	m	()Ljava/lang/String;	d	func_176627_c
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lakb$a;	a	STONE
 	f	Lakb$a;	b	SAND
 	f	Lakb$a;	c	WOOD
@@ -14367,7 +14367,7 @@ c	akc	net/minecraft/block/BlockTallGrass
 c	akc$a	net/minecraft/block/BlockTallGrass$EnumType
 	m	()I	a	func_177044_a
 	m	(I)Lakc$a;	a	func_177045_a
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lakc$a;	a	DEAD_BUSH
 	f	Lakc$a;	b	GRASS
 	f	Lakc$a;	c	FERN
@@ -14461,7 +14461,7 @@ c	akh	net/minecraft/block/BlockTrapDoor
 c	akh$1	net/minecraft/block/BlockTrapDoor$1
 	f	[I	a	field_177058_a
 c	akh$a	net/minecraft/block/BlockTrapDoor$DoorHalf
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lakh$a;	a	TOP
 	f	Lakh$a;	b	BOTTOM
 	f	Ljava/lang/String;	c	field_176671_c
@@ -14586,7 +14586,7 @@ c	akl$a	net/minecraft/block/BlockWall$EnumType
 	m	()I	a	func_176657_a
 	m	(I)Lakl$a;	a	func_176660_a
 	m	()Ljava/lang/String;	c	func_176659_c
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lakl$a;	a	NORMAL
 	f	Lakl$a;	b	MOSSY
 	f	[Lakl$a;	c	field_176666_c
@@ -15244,7 +15244,7 @@ c	alt	net/minecraft/block/BlockPistonExtension
 c	alt$1	net/minecraft/block/BlockPistonExtension$1
 	f	[I	a	field_177247_a
 c	alt$a	net/minecraft/block/BlockPistonExtension$EnumPistonType
-	m	()Ljava/lang/String;	l	func_176610_l
+	m	()Ljava/lang/String;	l	getName
 	f	Lalt$a;	a	DEFAULT
 	f	Lalt$a;	b	STICKY
 	f	Ljava/lang/String;	c	field_176714_c
