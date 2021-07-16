@@ -1,4 +1,4 @@
-tiny	2	0	official	named
+tiny	2	0	official	mcp
 c	a	net/minecraft/util/EnumChatFormatting
 	m	(I)La;	a	func_175744_a
 	m	(Ljava/lang/String;)Ljava/lang/String;	a	getTextWithoutFormattingCodes
@@ -980,7 +980,7 @@ c	cq$a	net/minecraft/util/EnumFacing$Axis
 	m	()Z	b	func_176720_b
 	m	()Z	c	func_176722_c
 	m	()Lcq$c;	d	func_176716_d
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lcq$a;	a	X
 	f	Lcq$a;	b	Y
 	f	Lcq$a;	c	Z
@@ -11897,7 +11897,7 @@ c	afe$b	net/minecraft/block/BlockRailBase$EnumRailDirection
 	m	()I	a	func_177015_a
 	m	(I)Lafe$b;	a	func_177016_a
 	m	()Z	c	func_177018_c
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lafe$b;	a	NORTH_SOUTH
 	f	Lafe$b;	b	EAST_WEST
 	f	Lafe$b;	c	ASCENDING_EAST
@@ -11951,7 +11951,7 @@ c	afg	net/minecraft/block/BlockBed
 	f	Lamm;	a	PART
 	f	Lamk;	b	OCCUPIED
 c	afg$a	net/minecraft/block/BlockBed$EnumPartType
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lafg$a;	a	HEAD
 	f	Lafg$a;	b	FOOT
 	f	Ljava/lang/String;	c	field_177036_c
@@ -12596,7 +12596,7 @@ c	afx$1	net/minecraft/block/BlockRedstoneComparator$1
 	f	Lcq;	a	field_180418_a
 	f	Lafx;	b	field_180417_b
 c	afx$a	net/minecraft/block/BlockRedstoneComparator$Mode
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lafx$a;	a	COMPARE
 	f	Lafx$a;	b	SUBTRACT
 	f	Ljava/lang/String;	c	field_177041_c
@@ -12729,7 +12729,7 @@ c	agf$a	net/minecraft/block/BlockDirt$DirtType
 	m	(I)Lagf$a;	a	func_176924_a
 	m	()Ljava/lang/String;	c	func_176927_c
 	m	()Larn;	d	func_181066_d
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lagf$a;	a	DIRT
 	f	Lagf$a;	b	COARSE_DIRT
 	f	Lagf$a;	c	PODZOL
@@ -12803,12 +12803,12 @@ c	agh	net/minecraft/block/BlockDoor
 	f	Laml;	a	FACING
 	f	Lamk;	b	OPEN
 c	agh$a	net/minecraft/block/BlockDoor$EnumDoorHalf
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lagh$a;	a	UPPER
 	f	Lagh$a;	b	LOWER
 	f	[Lagh$a;	c	$VALUES
 c	agh$b	net/minecraft/block/BlockDoor$EnumHingePosition
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lagh$b;	a	LEFT
 	f	Lagh$b;	b	RIGHT
 	f	[Lagh$b;	c	$VALUES
@@ -12841,7 +12841,7 @@ c	agi	net/minecraft/block/BlockDoublePlant
 	f	Lamm;	a	VARIANT
 	f	Lamm;	b	HALF
 c	agi$a	net/minecraft/block/BlockDoublePlant$EnumBlockHalf
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lagi$a;	a	UPPER
 	f	Lagi$a;	b	LOWER
 	f	[Lagi$a;	c	$VALUES
@@ -12849,7 +12849,7 @@ c	agi$b	net/minecraft/block/BlockDoublePlant$EnumPlantType
 	m	()I	a	func_176936_a
 	m	(I)Lagi$b;	a	func_176938_a
 	m	()Ljava/lang/String;	c	func_176939_c
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lagi$b;	a	SUNFLOWER
 	f	Lagi$b;	b	SYRINGA
 	f	Lagi$b;	c	GRASS
@@ -13060,7 +13060,7 @@ c	agw$a	net/minecraft/block/BlockFlower$EnumFlowerType
 	m	(Lagw$b;I)Lagw$a;	a	func_176967_a
 	m	()I	b	func_176968_b
 	m	()Ljava/lang/String;	d	func_176963_d
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lagw$a;	a	DANDELION
 	f	Lagw$a;	b	POPPY
 	f	Lagw$a;	c	BLUE_ORCHID
@@ -13114,7 +13114,7 @@ c	agx$1	net/minecraft/block/BlockFlowerPot$1
 	f	[I	a	field_180353_a
 	f	[I	b	field_180352_b
 c	agx$a	net/minecraft/block/BlockFlowerPot$EnumFlowerType
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lagx$a;	a	EMPTY
 	f	Lagx$a;	b	POPPY
 	f	Lagx$a;	c	BLUE_ORCHID
@@ -13216,7 +13216,7 @@ c	ahh	net/minecraft/block/BlockSlab
 	m	()Lamo;	n	getVariantProperty
 	f	Lamm;	a	HALF
 c	ahh$a	net/minecraft/block/BlockSlab$EnumBlockHalf
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lahh$a;	a	TOP
 	f	Lahh$a;	b	BOTTOM
 	f	Ljava/lang/String;	c	field_176988_c
@@ -13280,7 +13280,7 @@ c	aho$1	net/minecraft/block/BlockHugeMushroom$1
 c	aho$a	net/minecraft/block/BlockHugeMushroom$EnumType
 	m	()I	a	func_176896_a
 	m	(I)Laho$a;	a	func_176895_a
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Laho$a;	a	NORTH_WEST
 	f	Laho$a;	b	NORTH
 	f	Laho$a;	c	NORTH_EAST
@@ -13395,7 +13395,7 @@ c	ahu$a	net/minecraft/block/BlockLever$EnumOrientation
 	m	(I)Lahu$a;	a	func_176853_a
 	m	(Lcq;Lcq;)Lahu$a;	a	func_176856_a
 	m	()Lcq;	c	func_176852_c
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lahu$a;	a	DOWN_X
 	f	Lahu$a;	b	EAST
 	f	Lahu$a;	c	WEST
@@ -13450,7 +13450,7 @@ c	ahw$1	net/minecraft/block/BlockLog$1
 	f	[I	a	field_180167_a
 c	ahw$a	net/minecraft/block/BlockLog$EnumAxis
 	m	(Lcq$a;)Lahw$a;	a	func_176870_a
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lahw$a;	a	X
 	f	Lahw$a;	b	Y
 	f	Lahw$a;	c	Z
@@ -13489,7 +13489,7 @@ c	ahz$a	net/minecraft/block/BlockSilverfish$EnumType
 	m	(Lalz;)Lahz$a;	a	func_176878_a
 	m	()Ljava/lang/String;	c	func_176882_c
 	m	()Lalz;	d	func_176883_d
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lahz$a;	a	STONE
 	f	Lahz$a;	b	COBBLESTONE
 	f	Lahz$a;	c	STONEBRICK
@@ -13594,7 +13594,7 @@ c	aih$a	net/minecraft/block/BlockStoneSlabNew$EnumType
 	m	(I)Laih$a;	a	func_176916_a
 	m	()Larn;	c	func_181068_c
 	m	()Ljava/lang/String;	d	func_176918_c
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Laih$a;	a	RED_SANDSTONE
 	f	[Laih$a;	b	field_176921_b
 	f	I	c	field_176922_c
@@ -13665,7 +13665,7 @@ c	aio$a	net/minecraft/block/BlockPlanks$EnumType
 	m	(I)Laio$a;	a	func_176837_a
 	m	()Larn;	c	func_181070_c
 	m	()Ljava/lang/String;	d	func_176840_c
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Laio$a;	a	OAK
 	f	Laio$a;	b	SPRUCE
 	f	Laio$a;	c	BIRCH
@@ -13770,7 +13770,7 @@ c	aiu$a	net/minecraft/block/BlockPrismarine$EnumType
 	m	()I	a	func_176807_a
 	m	(I)Laiu$a;	a	func_176810_a
 	m	()Ljava/lang/String;	c	func_176809_c
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Laiu$a;	a	ROUGH
 	f	Laiu$a;	b	BRICKS
 	f	Laiu$a;	c	DARK
@@ -13814,7 +13814,7 @@ c	aiw$1	net/minecraft/block/BlockQuartz$1
 c	aiw$a	net/minecraft/block/BlockQuartz$EnumType
 	m	()I	a	func_176796_a
 	m	(I)Laiw$a;	a	func_176794_a
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Laiw$a;	a	DEFAULT
 	f	Laiw$a;	b	CHISELED
 	f	Laiw$a;	c	LINES_Y
@@ -13845,7 +13845,7 @@ c	aiz$a	net/minecraft/block/BlockRedSandstone$EnumType
 	m	()I	a	func_176827_a
 	m	(I)Laiz$a;	a	func_176825_a
 	m	()Ljava/lang/String;	c	func_176828_c
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Laiz$a;	a	DEFAULT
 	f	Laiz$a;	b	CHISELED
 	f	Laiz$a;	c	SMOOTH
@@ -13907,7 +13907,7 @@ c	ajb	net/minecraft/block/BlockRedstoneWire
 	f	Lamm;	a	NORTH
 	f	Lamm;	b	EAST
 c	ajb$a	net/minecraft/block/BlockRedstoneWire$EnumAttachPosition
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lajb$a;	a	UP
 	f	Lajb$a;	b	SIDE
 	f	Lajb$a;	c	NONE
@@ -13992,7 +13992,7 @@ c	ajh$a	net/minecraft/block/BlockSand$EnumType
 	m	(I)Lajh$a;	a	func_176686_a
 	m	()Larn;	c	func_176687_c
 	m	()Ljava/lang/String;	d	func_176685_d
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lajh$a;	a	SAND
 	f	Lajh$a;	b	RED_SAND
 	f	[Lajh$a;	c	field_176695_c
@@ -14013,7 +14013,7 @@ c	aji$a	net/minecraft/block/BlockSandStone$EnumType
 	m	()I	a	func_176675_a
 	m	(I)Laji$a;	a	func_176673_a
 	m	()Ljava/lang/String;	c	func_176676_c
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Laji$a;	a	DEFAULT
 	f	Laji$a;	b	CHISELED
 	f	Laji$a;	c	SMOOTH
@@ -14206,13 +14206,13 @@ c	aju	net/minecraft/block/BlockStairs
 	f	Laml;	a	FACING
 	f	Lamm;	b	HALF
 c	aju$a	net/minecraft/block/BlockStairs$EnumHalf
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Laju$a;	a	TOP
 	f	Laju$a;	b	BOTTOM
 	f	Ljava/lang/String;	c	field_176709_c
 	f	[Laju$a;	d	$VALUES
 c	aju$b	net/minecraft/block/BlockStairs$EnumShape
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Laju$b;	a	STRAIGHT
 	f	Laju$b;	b	INNER_LEFT
 	f	Laju$b;	c	INNER_RIGHT
@@ -14271,7 +14271,7 @@ c	ajy$a	net/minecraft/block/BlockStone$EnumType
 	m	(I)Lajy$a;	a	func_176643_a
 	m	()Larn;	c	func_181072_c
 	m	()Ljava/lang/String;	d	func_176644_c
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lajy$a;	a	STONE
 	f	Lajy$a;	b	GRANITE
 	f	Lajy$a;	c	GRANITE_SMOOTH
@@ -14300,7 +14300,7 @@ c	ajz$a	net/minecraft/block/BlockStoneBrick$EnumType
 	m	()I	a	func_176612_a
 	m	(I)Lajz$a;	a	func_176613_a
 	m	()Ljava/lang/String;	c	func_176614_c
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lajz$a;	a	DEFAULT
 	f	Lajz$a;	b	MOSSY
 	f	Lajz$a;	c	CRACKED
@@ -14330,7 +14330,7 @@ c	akb$a	net/minecraft/block/BlockStoneSlab$EnumType
 	m	(I)Lakb$a;	a	func_176625_a
 	m	()Larn;	c	func_181074_c
 	m	()Ljava/lang/String;	d	func_176627_c
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lakb$a;	a	STONE
 	f	Lakb$a;	b	SAND
 	f	Lakb$a;	c	WOOD
@@ -14367,7 +14367,7 @@ c	akc	net/minecraft/block/BlockTallGrass
 c	akc$a	net/minecraft/block/BlockTallGrass$EnumType
 	m	()I	a	func_177044_a
 	m	(I)Lakc$a;	a	func_177045_a
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lakc$a;	a	DEAD_BUSH
 	f	Lakc$a;	b	GRASS
 	f	Lakc$a;	c	FERN
@@ -14461,7 +14461,7 @@ c	akh	net/minecraft/block/BlockTrapDoor
 c	akh$1	net/minecraft/block/BlockTrapDoor$1
 	f	[I	a	field_177058_a
 c	akh$a	net/minecraft/block/BlockTrapDoor$DoorHalf
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lakh$a;	a	TOP
 	f	Lakh$a;	b	BOTTOM
 	f	Ljava/lang/String;	c	field_176671_c
@@ -14586,7 +14586,7 @@ c	akl$a	net/minecraft/block/BlockWall$EnumType
 	m	()I	a	func_176657_a
 	m	(I)Lakl$a;	a	func_176660_a
 	m	()Ljava/lang/String;	c	func_176659_c
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lakl$a;	a	NORMAL
 	f	Lakl$a;	b	MOSSY
 	f	[Lakl$a;	c	field_176666_c
@@ -15244,7 +15244,7 @@ c	alt	net/minecraft/block/BlockPistonExtension
 c	alt$1	net/minecraft/block/BlockPistonExtension$1
 	f	[I	a	field_177247_a
 c	alt$a	net/minecraft/block/BlockPistonExtension$EnumPistonType
-	m	()Ljava/lang/String;	l	getName
+	m	()Ljava/lang/String;	l	func_176610_l
 	f	Lalt$a;	a	DEFAULT
 	f	Lalt$a;	b	STICKY
 	f	Ljava/lang/String;	c	field_176714_c
@@ -18498,65 +18498,66 @@ c	avh	net/minecraft/client/settings/GameSettings
 	f	I	U	streamMicToggleBehavior
 	f	Z	V	useNativeTransport
 	f	Z	W	entityShadows
-	f	Z	X	keyBindForward
-	f	Lavb;	Y	keyBindLeft
-	f	Lavb;	Z	keyBindBack
-	f	Z	aA	thirdPersonView
-	f	I	aB	showDebugInfo
-	f	Z	aC	showDebugProfilerChart
-	f	Z	aD	showLagometer
-	f	Z	aE	lastServer
+	f	Z	X	realmsNotifications
+	f	Lavb;	Y	keyBindForward
+	f	Lavb;	Z	keyBindLeft
+	f	Z	aA	hideGUI
+	f	I	aB	thirdPersonView
+	f	Z	aC	showDebugInfo
+	f	Z	aD	showDebugProfilerChart
+	f	Z	aE	showLagometer
 	f	F	a	mouseSensitivity
-	f	Ljava/lang/String;	aF	smoothCamera
-	f	Z	aG	debugCamEnable
-	f	Z	aH	fovSetting
-	f	F	aI	gammaSetting
-	f	F	aJ	saturation
-	f	F	aK	guiScale
-	f	I	aL	particleSetting
-	f	I	aM	language
-	f	Ljava/lang/String;	aN	forceUnicodeFont
-	f	Z	aO	logger
-	f	Lorg/apache/logging/log4j/Logger;	aP	gson
-	f	Lcom/google/gson/Gson;	aQ	typeListString
-	f	Ljava/lang/reflect/ParameterizedType;	aR	GUISCALES
-	f	[Ljava/lang/String;	aS	PARTICLES
-	f	[Ljava/lang/String;	aT	AMBIENT_OCCLUSIONS
-	f	[Ljava/lang/String;	aU	STREAM_COMPRESSIONS
-	f	[Ljava/lang/String;	aV	STREAM_CHAT_MODES
-	f	[Ljava/lang/String;	aW	STREAM_CHAT_FILTER_MODES
-	f	[Ljava/lang/String;	aX	STREAM_MIC_MODES
-	f	[Ljava/lang/String;	aY	CLOUDS_TYPES
-	f	[Ljava/lang/String;	aZ	setModelParts
-	f	Lavb;	aa	keyBindRight
-	f	Lavb;	ab	keyBindJump
-	f	Lavb;	ac	keyBindSneak
-	f	Lavb;	ad	keyBindSprint
-	f	Lavb;	ae	keyBindInventory
-	f	Lavb;	af	keyBindUseItem
-	f	Lavb;	ag	keyBindDrop
-	f	Lavb;	ah	keyBindAttack
-	f	Lavb;	ai	keyBindPickBlock
-	f	Lavb;	aj	keyBindChat
-	f	Lavb;	ak	keyBindPlayerList
-	f	Lavb;	al	keyBindCommand
-	f	Lavb;	am	keyBindScreenshot
-	f	Lavb;	an	keyBindTogglePerspective
-	f	Lavb;	ao	keyBindSmoothCamera
-	f	Lavb;	ap	keyBindFullscreen
-	f	Lavb;	aq	keyBindSpectatorOutlines
-	f	Lavb;	ar	keyBindStreamStartStop
-	f	Lavb;	as	keyBindStreamPauseUnpause
-	f	Lavb;	at	keyBindStreamCommercials
-	f	Lavb;	au	keyBindStreamToggleMic
-	f	Lavb;	av	keyBindsHotbar
-	f	[Lavb;	aw	keyBindings
-	f	[Lavb;	ax	mc
-	f	Lave;	ay	difficulty
-	f	Loj;	az	hideGUI
+	f	Ljava/lang/String;	aF	lastServer
+	f	Z	aG	smoothCamera
+	f	Z	aH	debugCamEnable
+	f	F	aI	fovSetting
+	f	F	aJ	gammaSetting
+	f	F	aK	saturation
+	f	I	aL	guiScale
+	f	I	aM	particleSetting
+	f	Ljava/lang/String;	aN	language
+	f	Z	aO	forceUnicodeFont
+	f	Lorg/apache/logging/log4j/Logger;	aP	logger
+	f	Lcom/google/gson/Gson;	aQ	gson
+	f	Ljava/lang/reflect/ParameterizedType;	aR	typeListString
+	f	[Ljava/lang/String;	aS	GUISCALES
+	f	[Ljava/lang/String;	aT	PARTICLES
+	f	[Ljava/lang/String;	aU	AMBIENT_OCCLUSIONS
+	f	[Ljava/lang/String;	aV	STREAM_COMPRESSIONS
+	f	[Ljava/lang/String;	aW	STREAM_CHAT_MODES
+	f	[Ljava/lang/String;	aX	STREAM_CHAT_FILTER_MODES
+	f	[Ljava/lang/String;	aY	STREAM_MIC_MODES
+	f	[Ljava/lang/String;	aZ	CLOUDS_TYPES
+	f	Lavb;	aa	keyBindBack
+	f	Lavb;	ab	keyBindRight
+	f	Lavb;	ac	keyBindJump
+	f	Lavb;	ad	keyBindSneak
+	f	Lavb;	ae	keyBindSprint
+	f	Lavb;	af	keyBindInventory
+	f	Lavb;	ag	keyBindUseItem
+	f	Lavb;	ah	keyBindDrop
+	f	Lavb;	ai	keyBindAttack
+	f	Lavb;	aj	keyBindPickBlock
+	f	Lavb;	ak	keyBindChat
+	f	Lavb;	al	keyBindPlayerList
+	f	Lavb;	am	keyBindCommand
+	f	Lavb;	an	keyBindScreenshot
+	f	Lavb;	ao	keyBindTogglePerspective
+	f	Lavb;	ap	keyBindSmoothCamera
+	f	Lavb;	aq	keyBindFullscreen
+	f	Lavb;	ar	keyBindSpectatorOutlines
+	f	Lavb;	as	keyBindStreamStartStop
+	f	Lavb;	at	keyBindStreamPauseUnpause
+	f	Lavb;	au	keyBindStreamCommercials
+	f	Lavb;	av	keyBindStreamToggleMic
+	f	[Lavb;	aw	keyBindsHotbar
+	f	[Lavb;	ax	keyBindings
+	f	Lave;	ay	mc
+	f	Loj;	az	difficulty
 	f	Z	b	invertMouse
-	f	Ljava/util/Set;	ba	mapSoundLevels
-	f	Ljava/util/Map;	bb	optionsFile
+	f	Ljava/util/Set;	ba	setModelParts
+	f	Ljava/util/Map;	bb	mapSoundLevels
+	f	Ljava/io/File;	bc	optionsFile
 	f	I	c	renderDistanceChunks
 	f	Z	d	viewBobbing
 	f	Z	e	anaglyph
@@ -18616,13 +18617,14 @@ c	avh$a	net/minecraft/client/settings/GameSettings$Options
 	f	Lavh$a;	P	BLOCK_ALTERNATIVES
 	f	Lavh$a;	Q	REDUCED_DEBUG_INFO
 	f	Lavh$a;	R	ENTITY_SHADOWS
-	f	Lavh$a;	S	field_74385_A
-	f	Z	T	field_74386_B
-	f	Z	U	field_74387_C
-	f	Ljava/lang/String;	V	field_148270_M
-	f	F	W	field_148271_N
-	f	F	X	field_148272_O
-	f	F	Y	$VALUES
+	f	Lavh$a;	S	REALMS_NOTIFICATIONS
+	f	Z	T	field_74385_A
+	f	Z	U	field_74386_B
+	f	Ljava/lang/String;	V	field_74387_C
+	f	F	W	field_148270_M
+	f	F	X	field_148271_N
+	f	F	Y	field_148272_O
+	f	[Lavh$a;	Z	$VALUES
 	f	Lavh$a;	a	INVERT_MOUSE
 	f	Lavh$a;	b	SENSITIVITY
 	f	Lavh$a;	c	FOV
@@ -19324,6 +19326,7 @@ c	awr	net/minecraft/client/gui/GuiScreenRealmsProxy
 	m	(Ljava/lang/String;I)Ljava/util/List;	a	func_154323_a
 	m	(Ljava/lang/String;II)V	a	drawCreativeTabHoveringText
 	m	(Ljava/lang/String;III)V	a	func_154325_a
+	m	(Ljava/lang/String;IIIZ)V	a	func_154322_b
 	m	(Ljava/util/List;II)V	a	drawHoveringText
 	m	(Lnet/minecraft/realms/RealmsButton;)V	a	func_154327_a
 	m	(Lzx;II)V	a	renderToolTip
@@ -19331,12 +19334,11 @@ c	awr	net/minecraft/client/gui/GuiScreenRealmsProxy
 	m	()V	b	initGui
 	m	(III)V	b	mouseReleased
 	m	(IIIIII)V	b	drawTexturedModalRect
-	m	(Ljava/lang/String;III)V	b	func_154322_b
+	m	(Ljava/lang/String;III)V	b	func_154319_c
 	m	(Lnet/minecraft/realms/RealmsButton;)V	b	func_154328_b
 	m	(I)V	b_	drawWorldBackground
 	m	()V	c	drawDefaultBackground
 	m	(Ljava/lang/String;)I	c	func_154326_c
-	m	(Ljava/lang/String;III)V	c	func_154319_c
 	m	()Z	d	doesGuiPauseGame
 	m	()V	e	updateScreen
 	m	()I	h	func_154329_h
@@ -19811,6 +19813,7 @@ c	axt	net/minecraft/client/gui/GuiRenameWorld
 	f	Ljava/lang/String;	g	saveName
 c	axu	net/minecraft/client/gui/GuiScreen
 	m	(CI)V	a	keyTyped
+	m	(II)V	a	setGuiSize
 	m	(IIF)V	a	drawScreen
 	m	(III)V	a	mouseClicked
 	m	(IIIJ)V	a	mouseClickMove
@@ -19978,7 +19981,7 @@ c	axz$a	net/minecraft/client/gui/GuiScreenOptionsSounds$Button
 	f	Lbpg;	r	field_146153_r
 	f	Ljava/lang/String;	s	field_146152_s
 c	aya	net/minecraft/client/gui/GuiMainMenu
-	m	()V	a	switchToRealms
+	m	()Z	a	func_183501_a
 	m	(CI)V	a	keyTyped
 	m	(F)V	a	rotateAndBlurSkybox
 	m	(IIF)V	a	drawScreen
@@ -19992,6 +19995,8 @@ c	aya	net/minecraft/client/gui/GuiMainMenu
 	m	(IIF)V	c	renderSkybox
 	m	()Z	d	doesGuiPauseGame
 	m	()V	e	updateScreen
+	m	()V	f	switchToRealms
+	m	()V	m	onGuiClosed
 	f	Ljy;	A	splashTexts
 	f	Ljy;	B	minecraftTitleTextures
 	f	[Ljy;	C	titlePanoramaPaths
@@ -20003,6 +20008,8 @@ c	aya	net/minecraft/client/gui/GuiMainMenu
 	f	I	I	field_92019_w
 	f	Ljy;	J	backgroundTexture
 	f	Lavs;	K	realmsButton
+	f	Z	L	field_183502_L
+	f	Laxu;	M	field_183503_M
 	f	Ljava/lang/String;	a	field_96138_a
 	f	Ljava/util/concurrent/atomic/AtomicInteger;	f	field_175373_f
 	f	Lorg/apache/logging/log4j/Logger;	g	logger
@@ -24481,1995 +24488,3 @@ c	blt	net/minecraft/client/shader/ShaderLoader
 	f	I	d	shaderAttachCount
 c	blt$a	net/minecraft/client/shader/ShaderLoader$ShaderType
 	m	()Ljava/lang/String;	a	func_148062_a
-	m	()Ljava/lang/String;	b	func_148063_b
-	m	()I	c	func_148065_c
-	m	()Ljava/util/Map;	d	func_148064_d
-	f	Lblt$a;	a	VERTEX
-	f	Lblt$a;	b	FRAGMENT
-	f	Ljava/lang/String;	c	field_148072_c
-	f	Ljava/lang/String;	d	field_148069_d
-	f	I	e	field_148070_e
-	f	Ljava/util/Map;	f	field_148067_f
-	f	[Lblt$a;	g	$VALUES
-c	blu	net/minecraft/client/shader/ShaderLinkHelper
-	m	()V	a	setNewStaticShaderLinkHelper
-	m	(Lblq;)V	a	deleteShader
-	m	()Lblu;	b	getStaticShaderLinkHelper
-	m	(Lblq;)V	b	linkProgram
-	m	()I	c	createProgram
-	f	Lorg/apache/logging/log4j/Logger;	a	logger
-	f	Lblu;	b	staticShaderLinkHelper
-c	blv	net/minecraft/client/shader/ShaderUniform
-	m	()Ljava/lang/String;	a	getShaderName
-	m	(F)V	a	set
-	m	(FF)V	a	set
-	m	(FFF)V	a	set
-	m	(FFFF)V	a	set
-	m	(FFFFFFFFFFFFFFFF)V	a	set
-	m	(IIII)V	a	set
-	m	(Ljava/lang/String;)I	a	parseType
-	m	(Lorg/lwjgl/util/vector/Matrix4f;)V	a	set
-	m	([F)V	a	set
-	m	()V	b	upload
-	m	(FFFF)V	b	func_148092_b
-	m	(I)V	b	setUniformLocation
-	m	()V	h	markDirty
-	m	()V	i	uploadInt
-	m	()V	j	uploadFloat
-	m	()V	k	uploadFloatMatrix
-	f	Lorg/apache/logging/log4j/Logger;	a	logger
-	f	I	b	uniformLocation
-	f	I	c	uniformCount
-	f	I	d	uniformType
-	f	Ljava/nio/IntBuffer;	e	uniformIntBuffer
-	f	Ljava/nio/FloatBuffer;	f	uniformFloatBuffer
-	f	Ljava/lang/String;	g	shaderName
-	f	Z	h	dirty
-	f	Lblq;	i	shaderManager
-c	bly	net/minecraft/client/renderer/texture/AbstractTexture
-	m	()V	a	restoreLastBlurMipmap
-	m	(ZZ)V	a	setBlurMipmapDirect
-	m	()I	b	getGlTextureId
-	m	(ZZ)V	b	setBlurMipmap
-	m	()V	c	deleteGlTexture
-	f	I	a	glTextureId
-	f	Z	b	blur
-	f	Z	c	mipmap
-	f	Z	d	blurLast
-	f	Z	e	mipmapLast
-c	blz	net/minecraft/client/renderer/texture/DynamicTexture
-	m	(Lbni;)V	a	loadTexture
-	m	()V	d	updateDynamicTexture
-	m	()[I	e	getTextureData
-	f	[I	f	dynamicTextureData
-	f	I	g	width
-	f	I	h	height
-c	bma	net/minecraft/client/renderer/ThreadDownloadImageData
-	m	(Lbma;)Ljava/lang/String;	a	access$000
-	m	(Lbni;)V	a	loadTexture
-	m	(Ljava/awt/image/BufferedImage;)V	a	setBufferedImage
-	m	()I	b	getGlTextureId
-	m	(Lbma;)Ljava/io/File;	b	access$100
-	m	(Lbma;)Lbfm;	c	access$300
-	m	()V	d	loadTextureFromServer
-	m	()Lorg/apache/logging/log4j/Logger;	f	access$200
-	m	()V	g	checkTextureUploaded
-	f	Lorg/apache/logging/log4j/Logger;	g	logger
-	f	Ljava/util/concurrent/atomic/AtomicInteger;	h	threadDownloadCounter
-	f	Ljava/io/File;	i	cacheFile
-	f	Ljava/lang/String;	j	imageUrl
-	f	Lbfm;	k	imageBuffer
-	f	Ljava/awt/image/BufferedImage;	l	bufferedImage
-	f	Ljava/lang/Thread;	m	imageThread
-	f	Z	n	textureUploaded
-c	bma$1	net/minecraft/client/renderer/ThreadDownloadImageData$1
-	f	Lbma;	a	field_110932_a
-c	bmb	net/minecraft/client/renderer/texture/IIconCreator
-	m	(Lbmh;)V	a	registerSprites
-c	bmc	net/minecraft/client/renderer/texture/LayeredColorMaskTexture
-	m	(Lbni;)V	a	loadTexture
-	f	Lorg/apache/logging/log4j/Logger;	f	LOG
-	f	Ljy;	g	textureLocation
-	f	Ljava/util/List;	h	field_174949_h
-	f	Ljava/util/List;	i	field_174950_i
-c	bmd	net/minecraft/client/renderer/texture/LayeredTexture
-	m	(Lbni;)V	a	loadTexture
-	f	Ljava/util/List;	f	layeredTextureNames
-	f	Lorg/apache/logging/log4j/Logger;	g	logger
-c	bme	net/minecraft/client/renderer/texture/SimpleTexture
-	m	(Lbni;)V	a	loadTexture
-	f	Ljy;	f	textureLocation
-	f	Lorg/apache/logging/log4j/Logger;	g	logger
-c	bmf	net/minecraft/client/renderer/texture/Stitcher
-	m	()I	a	getCurrentWidth
-	m	(II)I	a	access$000
-	m	(Lbmf$a;)Z	a	allocateSlot
-	m	(Lbmi;)V	a	addSprite
-	m	()I	b	getCurrentHeight
-	m	(II)I	b	getMipmapDimension
-	m	(Lbmf$a;)Z	b	expandAndAllocateSlot
-	m	()V	c	doStitch
-	m	()Ljava/util/List;	d	getStichSlots
-	f	I	a	mipmapLevelStitcher
-	f	Ljava/util/Set;	b	setStitchHolders
-	f	Ljava/util/List;	c	stitchSlots
-	f	I	d	currentWidth
-	f	I	e	currentHeight
-	f	I	f	maxWidth
-	f	I	g	maxHeight
-	f	Z	h	forcePowerOf2
-	f	I	i	maxTileDimension
-c	bmf$a	net/minecraft/client/renderer/texture/Stitcher$Holder
-	m	()Lbmi;	a	func_98150_a
-	m	(I)V	a	func_94196_a
-	m	(Lbmf$a;)I	a	compareTo
-	m	()I	b	func_94197_a
-	m	()I	c	func_94199_b
-	m	()V	d	func_94194_d
-	m	()Z	e	func_94195_e
-	f	Lbmi;	a	field_98151_a
-	f	I	b	field_94204_c
-	f	I	c	field_94201_d
-	f	I	d	field_147968_d
-	f	Z	e	field_94202_e
-	f	F	f	field_94205_a
-c	bmf$b	net/minecraft/client/renderer/texture/Stitcher$Slot
-	m	()Lbmf$a;	a	func_94183_a
-	m	(Lbmf$a;)Z	a	func_94182_a
-	m	(Ljava/util/List;)V	a	func_94184_a
-	m	()I	b	func_94186_b
-	m	()I	c	func_94185_c
-	f	I	a	field_94192_a
-	f	I	b	field_94190_b
-	f	I	c	field_94191_c
-	f	I	d	field_94188_d
-	f	Ljava/util/List;	e	field_94189_e
-	f	Lbmf$a;	f	field_94187_f
-c	bmg	net/minecraft/client/renderer/StitcherException
-	f	Lbmf$a;	a	holder
-c	bmh	net/minecraft/client/renderer/texture/TextureMap
-	m	(I)V	a	setMipmapLevels
-	m	(Lbni;)V	a	loadTexture
-	m	(Lbni;Lbmb;)V	a	loadSprites
-	m	(Ljava/lang/String;)Lbmi;	a	getAtlasSprite
-	m	(Ljy;)Lbmi;	a	registerSprite
-	m	(Ljy;I)Ljy;	a	completeResourceLocation
-	m	(Lbni;)V	b	loadTextureAtlas
-	m	()V	d	updateAnimations
-	m	()V	e	tick
-	m	()Lbmi;	f	getMissingSprite
-	m	()V	g	initMissingImage
-	f	Ljy;	f	LOCATION_MISSING_TEXTURE
-	f	Ljy;	g	locationBlocksTexture
-	f	Lorg/apache/logging/log4j/Logger;	h	logger
-	f	Ljava/util/List;	i	listAnimatedSprites
-	f	Ljava/util/Map;	j	mapRegisteredSprites
-	f	Ljava/util/Map;	k	mapUploadedSprites
-	f	Ljava/lang/String;	l	basePath
-	f	Lbmb;	m	iconCreator
-	f	I	n	mipmapLevels
-	f	Lbmi;	o	missingImage
-c	bmh$1	net/minecraft/client/renderer/texture/TextureMap$1
-	m	()Ljava/lang/String;	a	call
-	f	Lbmi;	a	field_147980_a
-	f	Lbmh;	b	field_147979_b
-c	bmh$2	net/minecraft/client/renderer/texture/TextureMap$2
-	m	()Ljava/lang/String;	a	call
-	f	Lbmi;	a	field_147977_a
-	f	Lbmh;	b	field_147976_b
-c	bmh$3	net/minecraft/client/renderer/texture/TextureMap$3
-	m	()Ljava/lang/String;	a	call
-	f	Lbmi;	a	field_147974_a
-	f	Lbmh;	b	field_147973_b
-c	bmi	net/minecraft/client/renderer/texture/TextureAtlasSprite
-	m	()I	a	getOriginX
-	m	(D)F	a	getInterpolatedU
-	m	(I)[[I	a	getFrameTextureData
-	m	(IIIIZ)V	a	initSprite
-	m	(Lbmi;)V	a	copyFrom
-	m	(Ljava/lang/String;)V	a	setLocationNameClock
-	m	(Ljava/util/List;)V	a	setFramesTextureData
-	m	(Ljy;)Lbmi;	a	makeAtlasSprite
-	m	([Ljava/awt/image/BufferedImage;Lboa;)V	a	loadSprite
-	m	([[IIII)[[I	a	getFrameTextureData
-	m	()I	b	getOriginY
-	m	(D)F	b	getInterpolatedV
-	m	(I)V	b	setIconWidth
-	m	(Ljava/lang/String;)V	b	setLocationNameCompass
-	m	()I	c	getIconWidth
-	m	(I)V	c	setIconHeight
-	m	()I	d	getIconHeight
-	m	(I)V	d	generateMipmaps
-	m	()F	e	getMinU
-	m	(I)V	e	allocateFrameTextureData
-	m	()F	f	getMaxU
-	m	()F	g	getMinV
-	m	()F	h	getMaxV
-	m	()Ljava/lang/String;	i	getIconName
-	m	()V	j	updateAnimation
-	m	()I	k	getFrameCount
-	m	()V	l	clearFramesTextureData
-	m	()Z	m	hasAnimationMetadata
-	m	()V	n	updateAnimationInterpolated
-	m	()V	o	resetSprite
-	f	Ljava/util/List;	a	framesTextureData
-	f	[[I	b	interpolatedFrameData
-	f	Z	c	rotated
-	f	I	d	originX
-	f	I	e	originY
-	f	I	f	width
-	f	I	g	height
-	f	I	h	frameCounter
-	f	I	i	tickCounter
-	f	Ljava/lang/String;	j	iconName
-	f	Lboa;	k	animationMetadata
-	f	F	l	minU
-	f	F	m	maxU
-	f	F	n	minV
-	f	F	o	maxV
-	f	Ljava/lang/String;	p	locationNameClock
-	f	Ljava/lang/String;	q	locationNameCompass
-c	bmi$1	net/minecraft/client/renderer/texture/TextureAtlasSprite$1
-	m	()Ljava/lang/String;	a	call
-	f	[[I	a	field_147983_a
-	f	Lbmi;	b	field_147982_b
-c	bmj	net/minecraft/client/renderer/texture/TextureManager
-	m	(Lbni;)V	a	onResourceManagerReload
-	m	(Ljava/lang/String;Lblz;)Ljy;	a	getDynamicTextureLocation
-	m	(Ljy;)V	a	bindTexture
-	m	(Ljy;Lbmk;)Z	a	loadTexture
-	m	(Ljy;Lbmn;)Z	a	loadTickableTexture
-	m	(Ljy;)Lbmk;	b	getTexture
-	m	(Ljy;)V	c	deleteTexture
-	m	()V	e	tick
-	f	Lorg/apache/logging/log4j/Logger;	a	logger
-	f	Ljava/util/Map;	b	mapTextureObjects
-	f	Ljava/util/List;	c	listTickables
-	f	Ljava/util/Map;	d	mapTextureCounters
-	f	Lbni;	e	theResourceManager
-c	bmj$1	net/minecraft/client/renderer/texture/TextureManager$1
-	m	()Ljava/lang/String;	a	call
-	f	Lbmk;	a	field_135062_a
-	f	Lbmj;	b	field_135061_b
-c	bmk	net/minecraft/client/renderer/texture/ITextureObject
-	m	()V	a	restoreLastBlurMipmap
-	m	(Lbni;)V	a	loadTexture
-	m	()I	b	getGlTextureId
-	m	(ZZ)V	b	setBlurMipmap
-c	bml	net/minecraft/client/renderer/texture/TextureUtil
-	m	()I	a	glGenTextures
-	m	(I)V	a	deleteTexture
-	m	(III)V	a	allocateTexture
-	m	(IIII)V	a	allocateTextureImpl
-	m	(IIIII)I	a	blendColorComponent
-	m	(IIIIZ)I	a	blendColors
-	m	(II[[I)[[I	a	generateMipmapData
-	m	(ILjava/awt/image/BufferedImage;)I	a	uploadTextureImage
-	m	(ILjava/awt/image/BufferedImage;IIZZ)I	a	uploadTextureImageSub
-	m	(ILjava/awt/image/BufferedImage;ZZ)I	a	uploadTextureImageAllocate
-	m	(I[III)V	a	uploadTexture
-	m	(I[IIIIIZZZ)V	a	uploadTextureSub
-	m	(Lbni;Ljy;)[I	a	readImageData
-	m	(Ljava/awt/image/BufferedImage;IIZZ)V	a	uploadTextureImageSubImpl
-	m	(Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;	a	readBufferedImage
-	m	(Z)V	a	setTextureClamped
-	m	(ZZ)V	a	setTextureBlurMipmap
-	m	([I)[I	a	updateAnaglyph
-	m	([II)V	a	copyToBuffer
-	m	([III)V	a	processPixelValues
-	m	([[IIIIIZZ)V	a	uploadTextureMipmap
-	m	(I)V	b	bindTexture
-	m	(Z)V	b	setTextureBlurred
-	m	([III)V	b	copyToBufferPos
-	m	(I)I	c	anaglyphColor
-	f	Lblz;	a	missingTexture
-	f	[I	b	missingTextureData
-	f	Lorg/apache/logging/log4j/Logger;	c	logger
-	f	Ljava/nio/IntBuffer;	d	dataBuffer
-	f	[I	e	mipmapBuffer
-c	bmm	net/minecraft/client/renderer/texture/ITickable
-	m	()V	e	tick
-c	bmn	net/minecraft/client/renderer/texture/ITickableTextureObject
-c	bmo	net/minecraft/client/renderer/texture/TextureClock
-	m	()V	j	updateAnimation
-	f	D	j	currentAngle
-	f	D	k	angleDelta
-c	bmp	net/minecraft/client/renderer/texture/TextureCompass
-	m	(Ladm;DDDZZ)V	a	updateCompass
-	m	()V	j	updateAnimation
-	f	D	j	currentAngle
-	f	D	k	angleDelta
-	f	Ljava/lang/String;	l	locationSprite
-c	bms	net/minecraft/client/renderer/vertex/DefaultVertexFormats
-	f	Lbmu;	a	BLOCK
-	f	Lbmu;	b	ITEM
-	f	Lbmu;	c	OLDMODEL_POSITION_TEX_NORMAL
-	f	Lbmu;	d	PARTICLE_POSITION_TEX_COLOR_LMAP
-	f	Lbmu;	e	POSITION
-	f	Lbmu;	f	POSITION_COLOR
-	f	Lbmu;	g	POSITION_TEX
-	f	Lbmu;	h	POSITION_NORMAL
-	f	Lbmu;	i	POSITION_TEX_COLOR
-	f	Lbmu;	j	POSITION_TEX_NORMAL
-	f	Lbmu;	k	POSITION_TEX_LMAP_COLOR
-	f	Lbmu;	l	POSITION_TEX_COLOR_NORMAL
-	f	Lbmv;	m	POSITION_3F
-	f	Lbmv;	n	COLOR_4UB
-	f	Lbmv;	o	TEX_2F
-	f	Lbmv;	p	TEX_2S
-	f	Lbmv;	q	NORMAL_3B
-	f	Lbmv;	r	PADDING_1B
-c	bmt	net/minecraft/client/renderer/vertex/VertexBuffer
-	m	()V	a	bindBuffer
-	m	(I)V	a	drawArrays
-	m	(Ljava/nio/ByteBuffer;)V	a	bufferData
-	m	()V	b	unbindBuffer
-	m	()V	c	deleteGlBuffers
-	f	I	a	glBufferId
-	f	Lbmu;	b	vertexFormat
-	f	I	c	count
-c	bmu	net/minecraft/client/renderer/vertex/VertexFormat
-	m	()V	a	clear
-	m	(I)Z	a	hasUvOffset
-	m	(Lbmv;)Lbmu;	a	addElement
-	m	()Z	b	hasNormal
-	m	(I)I	b	getUvOffsetById
-	m	()I	c	getNormalOffset
-	m	(I)Lbmv;	c	getElement
-	m	()Z	d	hasColor
-	m	(I)I	d	getOffset
-	m	()I	e	getColorOffset
-	m	()I	f	getIntegerSize
-	m	()I	g	getNextOffset
-	m	()Ljava/util/List;	h	getElements
-	m	()I	i	getElementCount
-	m	()Z	j	hasPosition
-	f	Lorg/apache/logging/log4j/Logger;	a	LOGGER
-	f	Ljava/util/List;	b	elements
-	f	Ljava/util/List;	c	offsets
-	f	I	d	nextOffset
-	f	I	e	colorElementOffset
-	f	Ljava/util/List;	f	uvOffsetsById
-	f	I	g	normalElementOffset
-c	bmu$1	net/minecraft/client/renderer/vertex/VertexFormat$1
-	f	[I	a	field_177382_a
-c	bmv	net/minecraft/client/renderer/vertex/VertexFormatElement
-	m	()Lbmv$a;	a	getType
-	m	(ILbmv$b;)Z	a	func_177372_a
-	m	()Lbmv$b;	b	getUsage
-	m	()I	c	getElementCount
-	m	()I	d	getIndex
-	m	()I	e	getSize
-	m	()Z	f	isPositionElement
-	f	Lorg/apache/logging/log4j/Logger;	a	LOGGER
-	f	Lbmv$a;	b	type
-	f	Lbmv$b;	c	usage
-	f	I	d	index
-	f	I	e	elementCount
-c	bmv$a	net/minecraft/client/renderer/vertex/VertexFormatElement$EnumType
-	m	()I	a	func_177395_a
-	m	()Ljava/lang/String;	b	func_177396_b
-	m	()I	c	func_177397_c
-	f	Lbmv$a;	a	FLOAT
-	f	Lbmv$a;	b	UBYTE
-	f	Lbmv$a;	c	BYTE
-	f	Lbmv$a;	d	USHORT
-	f	Lbmv$a;	e	SHORT
-	f	Lbmv$a;	f	UINT
-	f	Lbmv$a;	g	INT
-	f	I	h	field_177407_h
-	f	Ljava/lang/String;	i	field_177408_i
-	f	I	j	field_177405_j
-	f	[Lbmv$a;	k	$VALUES
-c	bmv$b	net/minecraft/client/renderer/vertex/VertexFormatElement$EnumUsage
-	m	()Ljava/lang/String;	a	func_177384_a
-	f	Lbmv$b;	a	POSITION
-	f	Lbmv$b;	b	NORMAL
-	f	Lbmv$b;	c	COLOR
-	f	Lbmv$b;	d	UV
-	f	Lbmv$b;	e	MATRIX
-	f	Lbmv$b;	f	BLEND_WEIGHT
-	f	Lbmv$b;	g	PADDING
-	f	Ljava/lang/String;	h	field_177392_h
-	f	[Lbmv$b;	i	$VALUES
-c	bmx	net/minecraft/client/resources/AbstractResourcePack
-	m	()Ljava/awt/image/BufferedImage;	a	getPackImage
-	m	(Lbny;Ljava/io/InputStream;Ljava/lang/String;)Lbnw;	a	readMetadata
-	m	(Lbny;Ljava/lang/String;)Lbnw;	a	getPackMetadata
-	m	(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;	a	getRelativeName
-	m	(Ljava/lang/String;)Ljava/io/InputStream;	a	getInputStreamByName
-	m	(Ljy;)Ljava/io/InputStream;	a	getInputStream
-	m	()Ljava/lang/String;	b	getPackName
-	m	(Ljava/lang/String;)Z	b	hasResourceName
-	m	(Ljy;)Z	b	resourceExists
-	m	(Ljava/lang/String;)V	c	logNameNotLowercase
-	m	(Ljy;)Ljava/lang/String;	c	locationToName
-	f	Ljava/io/File;	a	resourcePackFile
-	f	Lorg/apache/logging/log4j/Logger;	b	resourceLog
-c	bmy	net/minecraft/client/resources/ResourceIndex
-	m	()Ljava/util/Map;	a	getResourceMap
-	f	Lorg/apache/logging/log4j/Logger;	a	logger
-	f	Ljava/util/Map;	b	resourceMap
-c	bmz	net/minecraft/client/resources/DefaultPlayerSkin
-	m	()Ljy;	a	getDefaultSkinLegacy
-	m	(Ljava/util/UUID;)Ljy;	a	getDefaultSkin
-	m	(Ljava/util/UUID;)Ljava/lang/String;	b	getSkinType
-	m	(Ljava/util/UUID;)Z	c	isSlimSkin
-	f	Ljy;	a	TEXTURE_STEVE
-	f	Ljy;	b	TEXTURE_ALEX
-c	bna	net/minecraft/client/resources/DefaultResourcePack
-	m	()Ljava/awt/image/BufferedImage;	a	getPackImage
-	m	(Lbny;Ljava/lang/String;)Lbnw;	a	getPackMetadata
-	m	(Ljy;)Ljava/io/InputStream;	a	getInputStream
-	m	()Ljava/lang/String;	b	getPackName
-	m	(Ljy;)Z	b	resourceExists
-	m	()Ljava/util/Set;	c	getResourceDomains
-	m	(Ljy;)Ljava/io/InputStream;	c	getInputStreamAssets
-	m	(Ljy;)Ljava/io/InputStream;	d	getResourceStream
-	f	Ljava/util/Set;	a	defaultResourceDomains
-	f	Ljava/util/Map;	b	mapAssets
-c	bnb	net/minecraft/client/resources/FallbackResourceManager
-	m	()Ljava/util/Set;	a	getResourceDomains
-	m	(Lbnk;)V	a	addResourcePack
-	m	(Ljy;)Lbnh;	a	getResource
-	m	(Ljy;Lbnk;)Ljava/io/InputStream;	a	getInputStream
-	m	()Lorg/apache/logging/log4j/Logger;	b	access$000
-	m	(Ljy;)Ljava/util/List;	b	getAllResources
-	m	(Ljy;)Ljy;	c	getLocationMcmeta
-	f	Ljava/util/List;	a	resourcePacks
-	f	Lorg/apache/logging/log4j/Logger;	b	logger
-	f	Lbny;	c	frmMetadataSerializer
-c	bnb$a	net/minecraft/client/resources/FallbackResourceManager$InputStreamLeakedResourceLogger
-	f	Ljava/io/InputStream;	a	field_177330_a
-	f	Ljava/lang/String;	b	field_177328_b
-	f	Z	c	field_177329_c
-c	bnc	net/minecraft/client/resources/FileResourcePack
-	m	(Ljava/lang/String;)Ljava/io/InputStream;	a	getInputStreamByName
-	m	(Ljava/lang/String;)Z	b	hasResourceName
-	m	()Ljava/util/Set;	c	getResourceDomains
-	m	()Ljava/util/zip/ZipFile;	d	getResourcePackZipFile
-	f	Lcom/google/common/base/Splitter;	b	entryNameSplitter
-	f	Ljava/util/zip/ZipFile;	c	resourcePackZipFile
-c	bnd	net/minecraft/client/resources/FolderResourcePack
-	m	(Ljava/lang/String;)Ljava/io/InputStream;	a	getInputStreamByName
-	m	(Ljava/lang/String;)Z	b	hasResourceName
-	m	()Ljava/util/Set;	c	getResourceDomains
-c	bne	net/minecraft/client/resources/FoliageColorReloadListener
-	m	(Lbni;)V	a	onResourceManagerReload
-	f	Ljy;	a	LOC_FOLIAGE_PNG
-c	bnf	net/minecraft/client/resources/GrassColorReloadListener
-	m	(Lbni;)V	a	onResourceManagerReload
-	f	Ljy;	a	LOC_GRASS_PNG
-c	bng	net/minecraft/client/resources/IReloadableResourceManager
-	m	(Lbnj;)V	a	registerReloadListener
-	m	(Ljava/util/List;)V	a	reloadResources
-c	bnh	net/minecraft/client/resources/IResource
-	m	()Ljy;	a	getResourceLocation
-	m	(Ljava/lang/String;)Lbnw;	a	getMetadata
-	m	()Ljava/io/InputStream;	b	getInputStream
-	m	()Z	c	hasMetadata
-	m	()Ljava/lang/String;	d	getResourcePackName
-c	bni	net/minecraft/client/resources/IResourceManager
-	m	()Ljava/util/Set;	a	getResourceDomains
-	m	(Ljy;)Lbnh;	a	getResource
-	m	(Ljy;)Ljava/util/List;	b	getAllResources
-c	bnj	net/minecraft/client/resources/IResourceManagerReloadListener
-	m	(Lbni;)V	a	onResourceManagerReload
-c	bnk	net/minecraft/client/resources/IResourcePack
-	m	()Ljava/awt/image/BufferedImage;	a	getPackImage
-	m	(Lbny;Ljava/lang/String;)Lbnw;	a	getPackMetadata
-	m	(Ljy;)Ljava/io/InputStream;	a	getInputStream
-	m	()Ljava/lang/String;	b	getPackName
-	m	(Ljy;)Z	b	resourceExists
-	m	()Ljava/util/Set;	c	getResourceDomains
-c	bnl	net/minecraft/client/resources/ResourcePackFileNotFoundException
-c	bnm	net/minecraft/client/resources/ResourcePackRepository
-	m	()V	a	updateRepositoryEntriesAll
-	m	(Ljava/io/File;)Lcom/google/common/util/concurrent/ListenableFuture;	a	setResourcePackInstance
-	m	(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/util/concurrent/ListenableFuture;	a	downloadResourcePack
-	m	(Ljava/util/List;)V	a	setRepositories
-	m	()Ljava/util/List;	b	getRepositoryEntriesAll
-	m	()Ljava/util/List;	c	getRepositoryEntries
-	m	()Ljava/io/File;	d	getDirResourcepacks
-	m	()Lbnk;	e	getResourcePackInstance
-	m	()V	f	clearResourcePack
-	m	()V	g	fixDirResourcepacks
-	m	()Ljava/util/List;	h	getResourcePackFiles
-	m	()V	i	deleteOldServerResourcesPacks
-	f	Lbnk;	a	rprDefaultResourcePack
-	f	Lbny;	b	rprMetadataSerializer
-	f	Lorg/apache/logging/log4j/Logger;	c	logger
-	f	Ljava/io/FileFilter;	d	resourcePackFilter
-	f	Ljava/io/File;	e	dirResourcepacks
-	f	Ljava/io/File;	f	dirServerResourcepacks
-	f	Lbnk;	g	resourcePackInstance
-	f	Ljava/util/concurrent/locks/ReentrantLock;	h	lock
-	f	Lcom/google/common/util/concurrent/ListenableFuture;	i	downloadingPacks
-	f	Ljava/util/List;	j	repositoryEntriesAll
-	f	Ljava/util/List;	k	repositoryEntries
-c	bnm$1	net/minecraft/client/resources/ResourcePackRepository$1
-c	bnm$2	net/minecraft/client/resources/ResourcePackRepository$2
-	f	Lave;	a	field_177324_a
-	f	Laxr;	b	field_177323_b
-	f	Lbnm;	c	field_148523_a
-c	bnm$3	net/minecraft/client/resources/ResourcePackRepository$3
-	f	Ljava/io/File;	a	field_177327_a
-	f	Lcom/google/common/util/concurrent/SettableFuture;	b	field_177325_b
-	f	Lbnm;	c	field_177326_c
-c	bnm$a	net/minecraft/client/resources/ResourcePackRepository$Entry
-	m	()V	a	func_110516_a
-	m	(Lbmj;)V	a	func_110518_a
-	m	()V	b	func_110517_b
-	m	()Lbnk;	c	func_110514_c
-	m	()Ljava/lang/String;	d	func_110515_d
-	m	()Ljava/lang/String;	e	func_110519_e
-	m	()I	f	func_183027_f
-	f	Lbnm;	a	field_110525_a
-	f	Ljava/io/File;	b	field_110523_b
-	f	Lbnk;	c	field_110524_c
-	f	Lboj;	d	field_110521_d
-	f	Ljava/awt/image/BufferedImage;	e	field_110522_e
-	f	Ljy;	f	field_110520_f
-c	bnn	net/minecraft/client/resources/SimpleReloadableResourceManager
-	m	()Ljava/util/Set;	a	getResourceDomains
-	m	(Lbnj;)V	a	registerReloadListener
-	m	(Lbnk;)V	a	reloadResourcePack
-	m	(Ljava/util/List;)V	a	reloadResources
-	m	(Ljy;)Lbnh;	a	getResource
-	m	()V	b	clearResources
-	m	(Ljy;)Ljava/util/List;	b	getAllResources
-	m	()V	c	notifyReloadListeners
-	f	Lorg/apache/logging/log4j/Logger;	a	logger
-	f	Lcom/google/common/base/Joiner;	b	joinerResourcePacks
-	f	Ljava/util/Map;	c	domainResourceManagers
-	f	Ljava/util/List;	d	reloadListeners
-	f	Ljava/util/Set;	e	setResourceDomains
-	f	Lbny;	f	rmMetadataSerializer
-c	bnn$1	net/minecraft/client/resources/SimpleReloadableResourceManager$1
-	m	(Lbnk;)Ljava/lang/String;	a	apply
-	f	Lbnn;	a	field_130076_a
-c	bno	net/minecraft/client/resources/SimpleResource
-	m	()Ljy;	a	getResourceLocation
-	m	(Ljava/lang/String;)Lbnw;	a	getMetadata
-	m	()Ljava/io/InputStream;	b	getInputStream
-	m	()Z	c	hasMetadata
-	m	()Ljava/lang/String;	d	getResourcePackName
-	f	Ljava/util/Map;	a	mapMetadataSections
-	f	Ljava/lang/String;	b	resourcePackName
-	f	Ljy;	c	srResourceLocation
-	f	Ljava/io/InputStream;	d	resourceInputStream
-	f	Ljava/io/InputStream;	e	mcmetaInputStream
-	f	Lbny;	f	srMetadataSerializer
-	f	Z	g	mcmetaJsonChecked
-	f	Lcom/google/gson/JsonObject;	h	mcmetaJson
-c	bnp	net/minecraft/client/resources/SkinManager
-	m	(Lbnp;)Lcom/mojang/authlib/minecraft/MinecraftSessionService;	a	access$000
-	m	(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;	a	loadSkinFromCache
-	m	(Lcom/mojang/authlib/GameProfile;Lbnp$a;Z)V	a	loadProfileTextures
-	m	(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;)Ljy;	a	loadSkin
-	m	(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lbnp$a;)Ljy;	a	loadSkin
-	f	Ljava/util/concurrent/ExecutorService;	a	THREAD_POOL
-	f	Lbmj;	b	textureManager
-	f	Ljava/io/File;	c	skinCacheDir
-	f	Lcom/mojang/authlib/minecraft/MinecraftSessionService;	d	sessionService
-	f	Lcom/google/common/cache/LoadingCache;	e	skinCacheLoader
-c	bnp$1	net/minecraft/client/resources/SkinManager$1
-	m	(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;	a	load
-	f	Lbnp;	a	field_152787_a
-c	bnp$2	net/minecraft/client/resources/SkinManager$2
-	m	()V	a	func_152634_a
-	m	(Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;	a	func_78432_a
-	f	Lbfm;	a	field_152635_a
-	f	Lbnp$a;	b	field_152636_b
-	f	Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;	c	field_152637_c
-	f	Ljy;	d	field_152638_d
-	f	Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;	e	field_177249_e
-	f	Lbnp;	f	field_152639_e
-c	bnp$3	net/minecraft/client/resources/SkinManager$3
-	f	Lcom/mojang/authlib/GameProfile;	a	field_152799_a
-	f	Z	b	field_152800_b
-	f	Lbnp$a;	c	field_152801_c
-	f	Lbnp;	d	field_152802_d
-c	bnp$3$1	net/minecraft/client/resources/SkinManager$3$1
-	f	Ljava/util/Map;	a	field_152803_a
-	f	Lbnp$3;	b	field_152804_b
-c	bnp$a	net/minecraft/client/resources/SkinManager$SkinAvailableCallback
-	m	(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Ljy;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;)V	a	func_180521_a
-c	bnq	net/minecraft/client/resources/I18n
-	m	(Lbnt;)V	a	setLocale
-	m	(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;	a	format
-	f	Lbnt;	a	i18nLocale
-c	bnr	net/minecraft/client/resources/Language
-	m	()Ljava/lang/String;	a	getLanguageCode
-	m	(Lbnr;)I	a	compareTo
-	m	()Z	b	isBidirectional
-	f	Ljava/lang/String;	a	languageCode
-	f	Ljava/lang/String;	b	region
-	f	Ljava/lang/String;	c	name
-	f	Z	d	bidirectional
-c	bns	net/minecraft/client/resources/LanguageManager
-	m	()Z	a	isCurrentLocaleUnicode
-	m	(Lbni;)V	a	onResourceManagerReload
-	m	(Lbnr;)V	a	setCurrentLanguage
-	m	(Ljava/util/List;)V	a	parseLanguageMetadata
-	m	()Z	b	isCurrentLanguageBidirectional
-	m	()Lbnr;	c	getCurrentLanguage
-	m	()Ljava/util/SortedSet;	d	getLanguages
-	f	Lbnt;	a	currentLocale
-	f	Lorg/apache/logging/log4j/Logger;	b	logger
-	f	Lbny;	c	theMetadataSerializer
-	f	Ljava/lang/String;	d	currentLanguage
-	f	Ljava/util/Map;	e	languageMap
-c	bnt	net/minecraft/client/resources/Locale
-	m	()Z	a	isUnicode
-	m	(Lbni;Ljava/util/List;)V	a	loadLocaleDataFiles
-	m	(Ljava/io/InputStream;)V	a	loadLocaleData
-	m	(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;	a	formatMessage
-	m	(Ljava/util/List;)V	a	loadLocaleData
-	m	()V	b	checkUnicode
-	m	(Ljava/lang/String;)Ljava/lang/String;	b	translateKeyPrivate
-	f	Ljava/util/Map;	a	properties
-	f	Lcom/google/common/base/Splitter;	b	splitter
-	f	Ljava/util/regex/Pattern;	c	pattern
-	f	Z	d	unicode
-c	bnv	net/minecraft/client/resources/data/BaseMetadataSectionSerializer
-c	bnw	net/minecraft/client/resources/data/IMetadataSection
-c	bnx	net/minecraft/client/resources/data/IMetadataSectionSerializer
-	m	()Ljava/lang/String;	a	getSectionName
-c	bny	net/minecraft/client/resources/data/IMetadataSerializer
-	m	()Lcom/google/gson/Gson;	a	getGson
-	m	(Lbnx;Ljava/lang/Class;)V	a	registerMetadataSectionType
-	m	(Ljava/lang/String;Lcom/google/gson/JsonObject;)Lbnw;	a	parseMetadataSection
-	f	Ldb;	a	metadataSectionSerializerRegistry
-	f	Lcom/google/gson/GsonBuilder;	b	gsonBuilder
-	f	Lcom/google/gson/Gson;	c	gson
-c	bny$1	net/minecraft/client/resources/data/IMetadataSerializer$1
-c	bny$a	net/minecraft/client/resources/data/IMetadataSerializer$Registration
-	f	Lbnx;	a	field_110502_a
-	f	Ljava/lang/Class;	b	field_110500_b
-	f	Lbny;	c	field_110501_c
-c	bnz	net/minecraft/client/resources/data/AnimationFrame
-	m	()Z	a	hasNoTime
-	m	()I	b	getFrameTime
-	m	()I	c	getFrameIndex
-	f	I	a	frameIndex
-	f	I	b	frameTime
-c	boa	net/minecraft/client/resources/data/AnimationMetadataSection
-	m	()I	a	getFrameHeight
-	m	(I)I	a	getFrameTimeSingle
-	m	()I	b	getFrameWidth
-	m	(I)Z	b	frameHasTime
-	m	()I	c	getFrameCount
-	m	(I)I	c	getFrameIndex
-	m	()I	d	getFrameTime
-	m	(I)Lbnz;	d	getAnimationFrame
-	m	()Z	e	isInterpolate
-	m	()Ljava/util/Set;	f	getFrameIndexSet
-	f	Ljava/util/List;	a	animationFrames
-	f	I	b	frameWidth
-	f	I	c	frameHeight
-	f	I	d	frameTime
-	f	Z	e	interpolate
-c	bob	net/minecraft/client/resources/data/AnimationMetadataSectionSerializer
-	m	()Ljava/lang/String;	a	getSectionName
-	m	(ILcom/google/gson/JsonElement;)Lbnz;	a	parseAnimationFrame
-	m	(Lboa;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;	a	serialize
-	m	(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lboa;	a	deserialize
-c	bod	net/minecraft/client/resources/data/FontMetadataSection
-	f	[F	a	charWidths
-	f	[F	b	charLefts
-	f	[F	c	charSpacings
-c	boe	net/minecraft/client/resources/data/FontMetadataSectionSerializer
-	m	()Ljava/lang/String;	a	getSectionName
-	m	(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbod;	a	deserialize
-c	bog	net/minecraft/client/resources/data/LanguageMetadataSection
-	m	()Ljava/util/Collection;	a	getLanguages
-	f	Ljava/util/Collection;	a	languages
-c	boh	net/minecraft/client/resources/data/LanguageMetadataSectionSerializer
-	m	()Ljava/lang/String;	a	getSectionName
-	m	(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbog;	a	deserialize
-c	boj	net/minecraft/client/resources/data/PackMetadataSection
-	m	()Leu;	a	getPackDescription
-	m	()I	b	getPackFormat
-	f	Leu;	a	packDescription
-	f	I	b	packFormat
-c	bok	net/minecraft/client/resources/data/PackMetadataSectionSerializer
-	m	()Ljava/lang/String;	a	getSectionName
-	m	(Lboj;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;	a	serialize
-	m	(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lboj;	a	deserialize
-c	bon	net/minecraft/client/resources/data/TextureMetadataSection
-	m	()Z	a	getTextureBlur
-	m	()Z	b	getTextureClamp
-	m	()Ljava/util/List;	c	getListMipmaps
-	f	Z	a	textureBlur
-	f	Z	b	textureClamp
-	f	Ljava/util/List;	c	listMipmaps
-c	boo	net/minecraft/client/resources/data/TextureMetadataSectionSerializer
-	m	()Ljava/lang/String;	a	getSectionName
-	m	(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbon;	a	deserialize
-c	boq	net/minecraft/client/resources/model/IBakedModel
-	m	()Ljava/util/List;	a	getGeneralQuads
-	m	(Lcq;)Ljava/util/List;	a	getFaceQuads
-	m	()Z	b	isAmbientOcclusion
-	m	()Z	c	isGui3d
-	m	()Z	d	isBuiltInRenderer
-	m	()Lbmi;	e	getParticleTexture
-	m	()Lbgr;	f	getItemCameraTransforms
-c	bor	net/minecraft/client/resources/model/ModelRotation
-	m	()Lorg/lwjgl/util/vector/Matrix4f;	a	getMatrix4d
-	m	(II)Lbor;	a	getModelRotation
-	m	(Lcq;)Lcq;	a	rotateFace
-	m	(Lcq;I)I	a	rotateVertex
-	m	(II)I	b	combineXY
-	f	Lbor;	a	X0_Y0
-	f	Lbor;	b	X0_Y90
-	f	Lbor;	c	X0_Y180
-	f	Lbor;	d	X0_Y270
-	f	Lbor;	e	X90_Y0
-	f	Lbor;	f	X90_Y90
-	f	Lbor;	g	X90_Y180
-	f	Lbor;	h	X90_Y270
-	f	Lbor;	i	X180_Y0
-	f	Lbor;	j	X180_Y90
-	f	Lbor;	k	X180_Y180
-	f	Lbor;	l	X180_Y270
-	f	Lbor;	m	X270_Y0
-	f	Lbor;	n	X270_Y90
-	f	Lbor;	o	X270_Y180
-	f	Lbor;	p	X270_Y270
-	f	Ljava/util/Map;	q	mapRotations
-	f	I	r	combinedXY
-	f	Lorg/lwjgl/util/vector/Matrix4f;	s	matrix4d
-	f	I	t	quartersX
-	f	I	u	quartersY
-	f	[Lbor;	v	$VALUES
-c	bos	net/minecraft/client/resources/model/BuiltInModel
-	m	()Ljava/util/List;	a	getGeneralQuads
-	m	(Lcq;)Ljava/util/List;	a	getFaceQuads
-	m	()Z	b	isAmbientOcclusion
-	m	()Z	c	isGui3d
-	m	()Z	d	isBuiltInRenderer
-	m	()Lbmi;	e	getParticleTexture
-	m	()Lbgr;	f	getItemCameraTransforms
-	f	Lbgr;	a	cameraTransforms
-c	bot	net/minecraft/client/resources/model/ModelBakery
-	m	()Ldb;	a	setupModelRegistry
-	m	(Lbgh;Lbgi;Lbmi;Lcq;Lbor;Z)Lbgg;	a	makeBakedQuad
-	m	(Lbgl;)Ljava/util/Set;	a	getTextureLocations
-	m	(Lbgl;Lbor;Z)Lboq;	a	bakeModel
-	m	(Lbgm;Lbov;)V	a	registerVariant
-	m	(Lbot;)Ljava/util/Map;	a	access$000
-	m	(Ljava/lang/String;)Ljy;	a	getItemLocation
-	m	(Ljava/util/Collection;)V	a	loadVariants
-	m	(Ljy;)Lbgm;	a	getModelBlockDefinition
-	m	(Lzw;)Ljava/util/List;	a	getVariantNames
-	m	()V	b	loadVariantItemModels
-	m	(Lbgl;)Z	b	hasItemModel
-	m	(Ljy;)Ljy;	b	getBlockStateLocation
-	m	()V	c	loadVariantModels
-	m	(Lbgl;)Z	c	isCustomRenderer
-	m	(Ljy;)Lbgl;	c	loadModel
-	m	()V	d	loadItemModels
-	m	(Lbgl;)Lbgl;	d	makeItemModel
-	m	(Ljy;)Ljy;	d	getModelLocation
-	m	()V	e	registerVariantNames
-	m	(Ljy;)Ljava/util/List;	e	getParentPath
-	m	()V	f	bakeBlockModels
-	m	(Ljy;)Ljy;	f	getParentLocation
-	m	()Ljava/util/Set;	g	getVariantsTextureLocations
-	m	()V	h	loadModelsCheck
-	m	()V	i	loadModels
-	m	()V	j	loadSprites
-	m	()Ljava/util/Set;	k	getItemsTextureLocations
-	m	()V	l	bakeItemModels
-	f	Lbov;	a	MODEL_MISSING
-	f	Ljava/util/Set;	b	LOCATIONS_BUILTIN_TEXTURES
-	f	Lorg/apache/logging/log4j/Logger;	c	LOGGER
-	f	Ljava/util/Map;	d	BUILT_IN_MODELS
-	f	Lcom/google/common/base/Joiner;	e	JOINER
-	f	Lbni;	f	resourceManager
-	f	Ljava/util/Map;	g	sprites
-	f	Ljava/util/Map;	h	models
-	f	Ljava/util/Map;	i	variants
-	f	Lbmh;	j	textureMap
-	f	Lbgc;	k	blockModelShapes
-	f	Lbgo;	l	faceBakery
-	f	Lbgp;	m	itemModelGenerator
-	f	Ldd;	n	bakedRegistry
-	f	Lbgl;	o	MODEL_GENERATED
-	f	Lbgl;	p	MODEL_COMPASS
-	f	Lbgl;	q	MODEL_CLOCK
-	f	Lbgl;	r	MODEL_ENTITY
-	f	Ljava/util/Map;	s	itemLocations
-	f	Ljava/util/Map;	t	blockDefinitions
-	f	Ljava/util/Map;	u	variantNames
-c	bot$1	net/minecraft/client/resources/model/ModelBakery$1
-	m	(Lbov;Lbov;)I	a	compare
-	f	Lbot;	a	field_177506_a
-c	bot$2	net/minecraft/client/resources/model/ModelBakery$2
-	m	(Lbmh;)V	a	func_177059_a
-	f	Ljava/util/Set;	a	field_177061_a
-	f	Lbot;	b	field_177060_b
-c	bou	net/minecraft/client/resources/model/ModelManager
-	m	()Lboq;	a	getMissingModel
-	m	(Lbni;)V	a	onResourceManagerReload
-	m	(Lbov;)Lboq;	a	getModel
-	m	()Lbmh;	b	getTextureMap
-	m	()Lbgc;	c	getBlockModelShapes
-	f	Ldb;	a	modelRegistry
-	f	Lbmh;	b	texMap
-	f	Lbgc;	c	modelProvider
-	f	Lboq;	d	defaultModel
-c	bov	net/minecraft/client/resources/model/ModelResourceLocation
-	m	(Ljava/lang/String;)[Ljava/lang/String;	b	parsePathString
-	m	()Ljava/lang/String;	c	getVariant
-	f	Ljava/lang/String;	c	variant
-c	bow	net/minecraft/client/resources/model/SimpleBakedModel
-	m	()Ljava/util/List;	a	getGeneralQuads
-	m	(Lcq;)Ljava/util/List;	a	getFaceQuads
-	m	()Z	b	isAmbientOcclusion
-	m	()Z	c	isGui3d
-	m	()Z	d	isBuiltInRenderer
-	m	()Lbmi;	e	getParticleTexture
-	m	()Lbgr;	f	getItemCameraTransforms
-	f	Ljava/util/List;	a	generalQuads
-	f	Ljava/util/List;	b	faceQuads
-	f	Z	c	ambientOcclusion
-	f	Z	d	gui3d
-	f	Lbmi;	e	texture
-	f	Lbgr;	f	cameraTransforms
-c	bow$a	net/minecraft/client/resources/model/SimpleBakedModel$Builder
-	m	(Lbgg;)Lbow$a;	a	func_177648_a
-	m	(Lbmi;)Lbow$a;	a	func_177646_a
-	m	(Lboq;Lbmi;)V	a	func_177647_a
-	m	(Lboq;Lbmi;Lcq;)V	a	func_177649_a
-	m	(Lcq;Lbgg;)Lbow$a;	a	func_177650_a
-	m	()Lboq;	b	func_177645_b
-	f	Ljava/util/List;	a	field_177656_a
-	f	Ljava/util/List;	b	field_177654_b
-	f	Z	c	field_177655_c
-	f	Lbmi;	d	field_177652_d
-	f	Z	e	field_177653_e
-	f	Lbgr;	f	field_177651_f
-c	box	net/minecraft/client/resources/model/WeightedBakedModel
-	m	()Ljava/util/List;	a	getGeneralQuads
-	m	(J)Lboq;	a	getAlternativeModel
-	m	(Lcq;)Ljava/util/List;	a	getFaceQuads
-	m	()Z	b	isAmbientOcclusion
-	m	()Z	c	isGui3d
-	m	()Z	d	isBuiltInRenderer
-	m	()Lbmi;	e	getParticleTexture
-	m	()Lbgr;	f	getItemCameraTransforms
-	f	I	a	totalWeight
-	f	Ljava/util/List;	b	models
-	f	Lboq;	c	baseModel
-c	box$a	net/minecraft/client/resources/model/WeightedBakedModel$Builder
-	m	()Lbox;	a	func_177676_a
-	m	(Lboq;I)Lbox$a;	a	func_177677_a
-	m	()Lboq;	b	func_177675_b
-	f	Ljava/util/List;	a	field_177678_a
-c	box$b	net/minecraft/client/resources/model/WeightedBakedModel$MyWeighedRandomItem
-	m	()I	a	func_177635_a
-	m	(Lbox$b;)I	a	compareTo
-	f	Lboq;	b	field_177636_b
-c	bpa	net/minecraft/client/audio/PositionedSound
-	m	()Ljy;	a	getSoundLocation
-	m	()Z	b	canRepeat
-	m	()I	d	getRepeatDelay
-	m	()F	e	getVolume
-	m	()F	f	getPitch
-	m	()F	g	getXPosF
-	m	()F	h	getYPosF
-	m	()F	i	getZPosF
-	m	()Lbpj$a;	j	getAttenuationType
-	f	Ljy;	a	positionedSoundLocation
-	f	F	b	volume
-	f	F	c	pitch
-	f	F	d	xPosF
-	f	F	e	yPosF
-	f	F	f	zPosF
-	f	Z	g	repeat
-	f	I	h	repeatDelay
-	f	Lbpj$a;	i	attenuationType
-c	bpb	net/minecraft/client/audio/MovingSound
-	m	()Z	k	isDonePlaying
-	f	Z	j	donePlaying
-c	bpc	net/minecraft/client/audio/GuardianSound
-	m	()V	c	update
-	f	Lvt;	k	guardian
-c	bpd	net/minecraft/client/audio/MovingSoundMinecart
-	m	()V	c	update
-	f	Lva;	k	minecart
-	f	F	l	distance
-c	bpe	net/minecraft/client/audio/MovingSoundMinecartRiding
-	m	()V	c	update
-	f	Lwn;	k	player
-	f	Lva;	l	minecart
-c	bpf	net/minecraft/client/audio/PositionedSoundRecord
-	m	(Ljy;)Lbpf;	a	create
-	m	(Ljy;F)Lbpf;	a	create
-	m	(Ljy;FFF)Lbpf;	a	create
-c	bpg	net/minecraft/client/audio/SoundCategory
-	m	()Ljava/lang/String;	a	getCategoryName
-	m	(Ljava/lang/String;)Lbpg;	a	getCategory
-	m	()I	b	getCategoryId
-	f	Lbpg;	a	MASTER
-	f	Lbpg;	b	MUSIC
-	f	Lbpg;	c	RECORDS
-	f	Lbpg;	d	WEATHER
-	f	Lbpg;	e	BLOCKS
-	f	Lbpg;	f	MOBS
-	f	Lbpg;	g	ANIMALS
-	f	Lbpg;	h	PLAYERS
-	f	Lbpg;	i	AMBIENT
-	f	Ljava/util/Map;	j	NAME_CATEGORY_MAP
-	f	Ljava/util/Map;	k	ID_CATEGORY_MAP
-	f	Ljava/lang/String;	l	categoryName
-	f	I	m	categoryId
-	f	[Lbpg;	n	$VALUES
-c	bph	net/minecraft/client/audio/SoundList
-	m	()Ljava/util/List;	a	getSoundList
-	m	(Lbpg;)V	a	setSoundCategory
-	m	(Z)V	a	setReplaceExisting
-	m	()Z	b	canReplaceExisting
-	m	()Lbpg;	c	getSoundCategory
-	f	Ljava/util/List;	a	soundList
-	f	Z	b	replaceExisting
-	f	Lbpg;	c	category
-c	bph$a	net/minecraft/client/audio/SoundList$SoundEntry
-	m	()Ljava/lang/String;	a	func_148556_a
-	m	(F)V	a	func_148553_a
-	m	(I)V	a	func_148554_a
-	m	(Lbph$a$a;)V	a	func_148562_a
-	m	(Ljava/lang/String;)V	a	func_148561_a
-	m	(Z)V	a	func_148557_a
-	m	()F	b	func_148558_b
-	m	(F)V	b	func_148559_b
-	m	()F	c	func_148560_c
-	m	()I	d	func_148555_d
-	m	()Lbph$a$a;	e	func_148563_e
-	m	()Z	f	func_148552_f
-	f	Ljava/lang/String;	a	field_148569_a
-	f	F	b	field_148567_b
-	f	F	c	field_148568_c
-	f	I	d	field_148565_d
-	f	Lbph$a$a;	e	field_148566_e
-	f	Z	f	field_148564_f
-c	bph$a$a	net/minecraft/client/audio/SoundList$SoundEntry$Type
-	m	(Ljava/lang/String;)Lbph$a$a;	a	func_148580_a
-	f	Lbph$a$a;	a	FILE
-	f	Lbph$a$a;	b	SOUND_EVENT
-	f	Ljava/lang/String;	c	field_148583_c
-	f	[Lbph$a$a;	d	$VALUES
-c	bpi	net/minecraft/client/audio/SoundListSerializer
-	m	(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbph;	a	deserialize
-c	bpj	net/minecraft/client/audio/ISound
-	m	()Ljy;	a	getSoundLocation
-	m	()Z	b	canRepeat
-	m	()I	d	getRepeatDelay
-	m	()F	e	getVolume
-	m	()F	f	getPitch
-	m	()F	g	getXPosF
-	m	()F	h	getYPosF
-	m	()F	i	getZPosF
-	m	()Lbpj$a;	j	getAttenuationType
-c	bpj$a	net/minecraft/client/audio/ISound$AttenuationType
-	m	()I	a	func_148586_a
-	f	Lbpj$a;	a	NONE
-	f	Lbpj$a;	b	LINEAR
-	f	I	c	field_148589_c
-	f	[Lbpj$a;	d	$VALUES
-c	bpk	net/minecraft/client/audio/ITickableSound
-	m	()Z	k	isDonePlaying
-c	bpn	net/minecraft/server/integrated/IntegratedPlayerList
-	m	(Ljava/net/SocketAddress;Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;	a	allowUserToConnect
-	m	()Lbpo;	b	getServerInstance
-	m	(Llf;)V	b	writePlayerData
-	m	()Lnet/minecraft/server/MinecraftServer;	c	getServerInstance
-	m	()Ldn;	t	getHostPlayerData
-	f	Ldn;	f	hostPlayerData
-c	bpo	net/minecraft/server/integrated/IntegratedServer
-	m	()V	A	tick
-	m	()V	a	setStaticInstance
-	m	(Ladp$a;)V	a	setGameType
-	m	(Ladp$a;Z)Ljava/lang/String;	a	shareToLAN
-	m	(Lb;)V	a	finalTick
-	m	(Ljava/lang/String;Ljava/lang/String;JLadr;Ljava/lang/String;)V	a	loadAllWorlds
-	m	(Loj;)V	a	setDifficultyForAllWorlds
-	m	(Lor;)V	a	addServerStatsToSnooper
-	m	()Z	ad	isSnooperEnabled
-	m	()Z	ae	isDedicatedServer
-	m	()Z	ai	shouldUseNativeTransport
-	m	()Z	al	isCommandBlockEnabled
-	m	()Z	b	getPublic
-	m	(Lb;)Lb;	b	addServerInfoToCrashReport
-	m	()Lbd;	h	createNewCommandManager
-	m	()Z	i	startServer
-	m	()Z	l	canStructuresSpawn
-	m	()Ladp$a;	m	getGameType
-	m	()Loj;	n	getDifficulty
-	m	()Z	o	isHardcore
-	m	()I	p	getOpPermissionLevel
-	m	()Z	q	shouldBroadcastRconToOps
-	m	()Z	r	shouldBroadcastConsoleToOps
-	m	()V	t	stopServer
-	m	()V	w	initiateShutdown
-	m	()Ljava/io/File;	y	getDataDirectory
-	f	Lorg/apache/logging/log4j/Logger;	k	logger
-	f	Lave;	l	mc
-	f	Ladp;	m	theWorldSettings
-	f	Z	n	isGamePaused
-	f	Z	o	isPublic
-	f	Lbpr;	p	lanServerPing
-c	bpo$1	net/minecraft/server/integrated/IntegratedServer$1
-	m	()Ljava/lang/String;	a	call
-	f	Lbpo;	a	field_76974_a
-c	bpo$2	net/minecraft/server/integrated/IntegratedServer$2
-	m	()Ljava/lang/String;	a	call
-	f	Lbpo;	a	field_76972_a
-c	bpo$3	net/minecraft/server/integrated/IntegratedServer$3
-	f	Lbpo;	a	field_177494_a
-c	bpp	net/minecraft/server/integrated/IntegratedServerCommandManager
-c	bpq	net/minecraft/client/network/LanServerDetector
-	m	()Ljava/util/concurrent/atomic/AtomicInteger;	a	access$000
-	m	()Lorg/apache/logging/log4j/Logger;	b	access$100
-	f	Ljava/util/concurrent/atomic/AtomicInteger;	a	field_148551_a
-	f	Lorg/apache/logging/log4j/Logger;	b	logger
-c	bpq$a	net/minecraft/client/network/LanServerDetector$LanServer
-	m	()Ljava/lang/String;	a	func_77487_a
-	m	()Ljava/lang/String;	b	func_77488_b
-	m	()V	c	func_77489_c
-	f	Ljava/lang/String;	a	field_77492_a
-	f	Ljava/lang/String;	b	field_77490_b
-	f	J	c	field_77491_c
-c	bpq$b	net/minecraft/client/network/LanServerDetector$ThreadLanServerFind
-	f	Lbpq$c;	a	field_77500_a
-	f	Ljava/net/InetAddress;	b	field_77498_b
-	f	Ljava/net/MulticastSocket;	c	field_77499_c
-c	bpq$c	net/minecraft/client/network/LanServerDetector$LanServerList
-	m	()Z	a	func_77553_a
-	m	(Ljava/lang/String;Ljava/net/InetAddress;)V	a	func_77551_a
-	m	()V	b	func_77552_b
-	m	()Ljava/util/List;	c	func_77554_c
-	f	Z	a	field_77556_a
-	f	Ljava/util/List;	b	field_77555_b
-c	bpr	net/minecraft/client/multiplayer/ThreadLanServerPing
-	m	(Ljava/lang/String;)Ljava/lang/String;	a	getMotdFromPingResponse
-	m	(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	a	getPingResponse
-	m	(Ljava/lang/String;)Ljava/lang/String;	b	getAdFromPingResponse
-	f	Ljava/util/concurrent/atomic/AtomicInteger;	a	field_148658_a
-	f	Lorg/apache/logging/log4j/Logger;	b	logger
-	f	Ljava/lang/String;	c	motd
-	f	Ljava/net/DatagramSocket;	d	socket
-	f	Z	e	isStopping
-	f	Ljava/lang/String;	f	address
-c	bpv	net/minecraft/client/audio/MusicTicker
-	m	()V	a	func_181557_a
-	m	(Lbpv$a;)V	a	func_181558_a
-	m	()V	c	update
-	f	Ljava/util/Random;	a	rand
-	f	Lave;	b	mc
-	f	Lbpj;	c	currentMusic
-	f	I	d	timeUntilNextMusic
-c	bpv$a	net/minecraft/client/audio/MusicTicker$MusicType
-	m	()Ljy;	a	func_148635_a
-	m	()I	b	func_148634_b
-	m	()I	c	func_148633_c
-	f	Lbpv$a;	a	MENU
-	f	Lbpv$a;	b	GAME
-	f	Lbpv$a;	c	CREATIVE
-	f	Lbpv$a;	d	CREDITS
-	f	Lbpv$a;	e	NETHER
-	f	Lbpv$a;	f	END_BOSS
-	f	Lbpv$a;	g	END
-	f	Ljy;	h	field_148645_h
-	f	I	i	field_148646_i
-	f	I	j	field_148643_j
-	f	[Lbpv$a;	k	$VALUES
-c	bpw	net/minecraft/client/audio/SoundPoolEntry
-	m	()Ljy;	a	getSoundPoolEntryLocation
-	m	(D)V	a	setPitch
-	m	()D	b	getPitch
-	m	(D)V	b	setVolume
-	m	()D	c	getVolume
-	m	()Z	d	isStreamingSound
-	f	Ljy;	a	location
-	f	Z	b	streamingSound
-	f	D	c	pitch
-	f	D	d	volume
-c	bpx	net/minecraft/client/audio/SoundManager
-	m	()V	a	reloadSoundSystem
-	m	(Lbpg;)F	a	getSoundCategoryVolume
-	m	(Lbpg;F)V	a	setSoundCategoryVolume
-	m	(Lbpj;)Z	a	isSoundPlaying
-	m	(Lbpj;I)V	a	playDelayedSound
-	m	(Lbpj;Lbpw;)F	a	getNormalizedPitch
-	m	(Lbpj;Lbpw;Lbpg;)F	a	getNormalizedVolume
-	m	(Lbpx;)Lavh;	a	access$400
-	m	(Lbpx;Lbpx$a;)Lbpx$a;	a	access$102
-	m	(Lbpx;Z)Z	a	access$302
-	m	(Ljy;)Ljava/net/URL;	a	getURLForSoundResource
-	m	(Lwn;F)V	a	setListener
-	m	()V	b	unloadSoundSystem
-	m	(Lbpj;)V	b	stopSound
-	m	(Lbpx;)Lbpx$a;	b	access$100
-	m	()V	c	stopAllSounds
-	m	(Lbpj;)V	c	playSound
-	m	()V	d	updateAllSounds
-	m	()V	e	pauseAllSounds
-	m	()V	f	resumeAllSounds
-	m	()Lorg/apache/logging/log4j/Logger;	g	access$000
-	m	()Lorg/apache/logging/log4j/Marker;	h	access$500
-	m	()V	i	loadSoundSystem
-	f	Lorg/apache/logging/log4j/Marker;	a	LOG_MARKER
-	f	Lorg/apache/logging/log4j/Logger;	b	logger
-	f	Lbpz;	c	sndHandler
-	f	Lavh;	d	options
-	f	Lbpx$a;	e	sndSystem
-	f	Z	f	loaded
-	f	I	g	playTime
-	f	Ljava/util/Map;	h	playingSounds
-	f	Ljava/util/Map;	i	invPlayingSounds
-	f	Ljava/util/Map;	j	playingSoundPoolEntries
-	f	Lcom/google/common/collect/Multimap;	k	categorySounds
-	f	Ljava/util/List;	l	tickableSounds
-	f	Ljava/util/Map;	m	delayedSounds
-	f	Ljava/util/Map;	n	playingSoundsStopTime
-c	bpx$1	net/minecraft/client/audio/SoundManager$1
-	f	Lbpx;	a	field_148631_a
-c	bpx$1$1	net/minecraft/client/audio/SoundManager$1$1
-	f	Lbpx$1;	a	field_177950_a
-c	bpx$2	net/minecraft/client/audio/SoundManager$2
-	f	Ljy;	a	field_148592_a
-c	bpx$2$1	net/minecraft/client/audio/SoundManager$2$1
-	f	Lbpx$2;	a	field_148593_a
-c	bpx$a	net/minecraft/client/audio/SoundManager$SoundSystemStarterThread
-	f	Lbpx;	a	field_148591_a
-c	bpy	net/minecraft/client/audio/SoundEventAccessorComposite
-	m	()I	a	getWeight
-	m	(Lbqb;)V	a	addSoundToEventPool
-	m	()Lbpw;	b	cloneEntry
-	m	()Ljy;	c	getSoundEventLocation
-	m	()Lbpg;	d	getSoundCategory
-	m	()Ljava/lang/Object;	g	cloneEntry
-	f	Ljava/util/List;	a	soundPool
-	f	Ljava/util/Random;	b	rnd
-	f	Ljy;	c	soundLocation
-	f	Lbpg;	d	category
-	f	D	e	eventPitch
-	f	D	f	eventVolume
-c	bpz	net/minecraft/client/audio/SoundHandler
-	m	()V	a	pauseSounds
-	m	(Lbni;)V	a	onResourceManagerReload
-	m	(Lbpg;F)V	a	setSoundLevel
-	m	(Lbpj;)V	a	playSound
-	m	(Lbpj;I)V	a	playDelayedSound
-	m	(Lbpz;)Lbqa;	a	access$000
-	m	(Ljava/io/InputStream;)Ljava/util/Map;	a	getSoundMap
-	m	(Ljy;)Lbpy;	a	getSound
-	m	(Ljy;Lbph;)V	a	loadSoundResource
-	m	(Lwn;F)V	a	setListener
-	m	([Lbpg;)Lbpy;	a	getRandomSoundFromCategories
-	m	()V	b	stopSounds
-	m	(Lbpj;)V	b	stopSound
-	m	()V	c	update
-	m	(Lbpj;)Z	c	isSoundPlaying
-	m	()V	d	unloadSounds
-	m	()V	e	resumeSounds
-	f	Lbpw;	a	missing_sound
-	f	Lorg/apache/logging/log4j/Logger;	b	logger
-	f	Lcom/google/gson/Gson;	c	GSON
-	f	Ljava/lang/reflect/ParameterizedType;	d	TYPE
-	f	Lbqa;	e	sndRegistry
-	f	Lbpx;	f	sndManager
-	f	Lbni;	g	mcResourceManager
-c	bpz$1	net/minecraft/client/audio/SoundHandler$1
-c	bpz$2	net/minecraft/client/audio/SoundHandler$2
-	m	()I	a	func_148721_a
-	m	()Lbpw;	b	func_148720_g
-	m	()Ljava/lang/Object;	g	func_148720_g
-	f	Ljy;	a	field_148726_a
-	f	Ljava/lang/String;	b	field_148724_b
-	f	Lbph$a;	c	field_148725_c
-	f	Lbpz;	d	field_148723_d
-c	bpz$3	net/minecraft/client/audio/SoundHandler$3
-	f	[I	a	field_148765_a
-c	bqa	net/minecraft/client/audio/SoundRegistry
-	m	()V	a	clearMap
-	m	(Lbpy;)V	a	registerSound
-	m	()Ljava/util/Map;	b	createUnderlyingMap
-	f	Ljava/util/Map;	a	soundRegistry
-c	bqb	net/minecraft/client/audio/ISoundEventAccessor
-	m	()I	a	getWeight
-	m	()Ljava/lang/Object;	g	cloneEntry
-c	bqc	net/minecraft/client/audio/SoundEventAccessor
-	m	()I	a	getWeight
-	m	()Lbpw;	b	cloneEntry
-	m	()Ljava/lang/Object;	g	cloneEntry
-	f	Lbpw;	a	entry
-	f	I	b	weight
-c	bqe	net/minecraft/client/stream/MetadataAchievement
-c	bqf	net/minecraft/client/stream/MetadataCombat
-c	bqg	net/minecraft/client/stream/MetadataPlayerDeath
-c	bqh	net/minecraft/client/stream/Metadata
-	m	()Ljava/lang/String;	a	func_152809_a
-	m	(Ljava/lang/String;)V	a	func_152807_a
-	m	(Ljava/lang/String;Ljava/lang/String;)V	a	func_152808_a
-	m	()Ljava/lang/String;	b	func_152806_b
-	m	()Ljava/lang/String;	c	func_152810_c
-	f	Lcom/google/gson/Gson;	a	field_152811_a
-	f	Ljava/lang/String;	b	name
-	f	Ljava/lang/String;	c	description
-	f	Ljava/util/Map;	d	payload
-c	bqj	net/minecraft/client/stream/BroadcastController
-	m	()Ltv/twitch/ErrorCode;	A	getErrorCode
-	m	()Ltv/twitch/broadcast/PixelFormat;	B	getPixelFormat
-	m	()Z	C	func_152817_A
-	m	()Z	D	func_152851_B
-	m	()V	E	statCallback
-	m	()Z	F	func_152845_C
-	m	()Z	G	requestCommercial
-	m	()Z	H	stopBroadcasting
-	m	()Z	I	func_152847_F
-	m	()Z	J	func_152854_G
-	m	()V	K	func_152821_H
-	m	()V	L	func_152835_I
-	m	()Lbql;	M	func_152838_J
-	m	()Z	O	func_152823_L
-	m	()V	P	func_152831_M
-	m	()Ltv/twitch/broadcast/FrameBuffer;	Q	func_152822_N
-	m	(F)V	a	setRecordingDeviceVolume
-	m	(IIFF)Ltv/twitch/broadcast/VideoParams;	a	func_152834_a
-	m	(Lbqj$a;)V	a	func_152827_a
-	m	(Lbqj$b;)V	a	setBroadcastListener
-	m	(Ljava/lang/String;)V	a	func_152842_a
-	m	(Ljava/lang/String;JJLjava/lang/String;Ljava/lang/String;)Z	a	func_177947_a
-	m	(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;)Z	a	func_152840_a
-	m	(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z	a	func_152828_a
-	m	(Ljava/lang/String;Ltv/twitch/AuthToken;)Z	a	func_152818_a
-	m	(Ltv/twitch/ErrorCode;)Z	a	func_152853_a
-	m	(Ltv/twitch/broadcast/FrameBuffer;)V	a	captureFramebuffer
-	m	(Ltv/twitch/broadcast/IngestServer;)V	a	setIngestServer
-	m	(Ltv/twitch/broadcast/VideoParams;)Z	a	func_152836_a
-	m	()Z	b	func_152858_b
-	m	(F)V	b	setPlaybackDeviceVolume
-	m	(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;)J	b	func_177946_b
-	m	(Ltv/twitch/broadcast/FrameBuffer;)Ltv/twitch/ErrorCode;	b	submitStreamFrame
-	m	(Ljava/lang/String;)V	d	logError
-	m	(Ljava/lang/String;)V	e	logWarning
-	m	()Ltv/twitch/broadcast/StreamInfo;	j	getStreamInfo
-	m	()Ltv/twitch/broadcast/ChannelInfo;	l	getChannelInfo
-	m	()Z	m	isBroadcasting
-	m	()Z	n	isReadyToBroadcast
-	m	()Z	o	isIngestTesting
-	m	()Z	p	isBroadcastPaused
-	m	()Z	q	func_152849_q
-	m	()Ltv/twitch/broadcast/IngestServer;	s	getIngestServer
-	m	()Ltv/twitch/broadcast/IngestList;	t	getIngestList
-	m	()Lbql;	w	isReady
-	m	()J	x	getStreamTime
-	m	()Z	y	func_152848_y
-	f	Lbql;	A	ingestServTester
-	f	Ltv/twitch/broadcast/IStreamCallbacks;	B	streamCallback
-	f	Ltv/twitch/broadcast/IStatCallbacks;	C	field_177949_C
-	f	Lorg/apache/logging/log4j/Logger;	D	logger
-	f	Lnp;	E	field_152862_C
-	f	Ljava/lang/String;	F	lastError
-	f	Ltv/twitch/ErrorCode;	G	errorCode
-	f	I	a	field_152865_a
-	f	I	b	field_152866_b
-	f	Lbqj$b;	c	broadcastListener
-	f	Ljava/lang/String;	d	field_152868_d
-	f	Ljava/lang/String;	e	field_152869_e
-	f	Ljava/lang/String;	f	field_152870_f
-	f	Z	g	field_152871_g
-	f	Ltv/twitch/Core;	h	streamCore
-	f	Ltv/twitch/broadcast/Stream;	i	theStream
-	f	Ljava/util/List;	j	field_152874_j
-	f	Ljava/util/List;	k	field_152875_k
-	f	Z	l	field_152876_l
-	f	Z	m	field_152877_m
-	f	Z	n	field_152878_n
-	f	Lbqj$a;	o	broadcastState
-	f	Ljava/lang/String;	p	field_152880_p
-	f	Ltv/twitch/broadcast/VideoParams;	q	videoParamaters
-	f	Ltv/twitch/broadcast/AudioParams;	r	audioParamaters
-	f	Ltv/twitch/broadcast/IngestList;	s	ingestList
-	f	Ltv/twitch/broadcast/IngestServer;	t	ingestServ
-	f	Ltv/twitch/AuthToken;	u	authenticationToken
-	f	Ltv/twitch/broadcast/ChannelInfo;	v	channelInfo
-	f	Ltv/twitch/broadcast/UserInfo;	w	userInfo
-	f	Ltv/twitch/broadcast/StreamInfo;	x	streamInfo
-	f	Ltv/twitch/broadcast/ArchivingState;	y	archivingState
-	f	J	z	field_152890_z
-c	bqj$1	net/minecraft/client/stream/BroadcastController$1
-	f	Lbqj;	a	field_177945_a
-c	bqj$2	net/minecraft/client/stream/BroadcastController$2
-	f	Lbqj;	a	field_177772_a
-c	bqj$3	net/minecraft/client/stream/BroadcastController$3
-	f	[I	a	field_177773_a
-c	bqj$a	net/minecraft/client/stream/BroadcastController$BroadcastState
-	f	Lbqj$a;	a	Uninitialized
-	f	Lbqj$a;	b	Initialized
-	f	Lbqj$a;	c	Authenticating
-	f	Lbqj$a;	d	Authenticated
-	f	Lbqj$a;	e	LoggingIn
-	f	Lbqj$a;	f	LoggedIn
-	f	Lbqj$a;	g	FindingIngestServer
-	f	Lbqj$a;	h	ReceivedIngestServers
-	f	Lbqj$a;	i	ReadyToBroadcast
-	f	Lbqj$a;	j	Starting
-	f	Lbqj$a;	k	Broadcasting
-	f	Lbqj$a;	l	Stopping
-	f	Lbqj$a;	m	Paused
-	f	Lbqj$a;	n	IngestTesting
-	f	[Lbqj$a;	o	$VALUES
-c	bqj$b	net/minecraft/client/stream/BroadcastController$BroadcastListener
-	m	()V	a	func_152895_a
-	m	(Lbqj$a;)V	a	func_152891_a
-	m	(Ltv/twitch/ErrorCode;)V	a	func_152897_a
-	m	(Ltv/twitch/ErrorCode;Ltv/twitch/AuthToken;)V	a	func_152900_a
-	m	(Ltv/twitch/ErrorCode;[Ltv/twitch/broadcast/GameInfo;)V	a	func_152898_a
-	m	(Ltv/twitch/broadcast/IngestList;)V	a	func_152896_a
-	m	(Ltv/twitch/broadcast/StreamInfo;)V	a	func_152894_a
-	m	()V	b	func_152899_b
-	m	(Ltv/twitch/ErrorCode;)V	b	func_152893_b
-	m	()V	c	func_152901_c
-	m	(Ltv/twitch/ErrorCode;)V	c	func_152892_c
-c	bqk	net/minecraft/client/stream/ChatController
-	m	(Lbqk$c;)V	a	func_175985_a
-	m	(Lbqk$e;)V	a	func_152990_a
-	m	(Ljava/lang/String;)V	a	func_152984_a
-	m	(Ljava/lang/String;Ljava/lang/String;)Z	a	func_175986_a
-	m	(Ljava/lang/String;Z)Z	a	func_175987_a
-	m	(Ltv/twitch/AuthToken;)V	a	func_152994_a
-	m	(Ljava/lang/String;)V	c	func_152998_c
-	m	(Ljava/lang/String;)Z	d	func_175990_d
-	m	(Ljava/lang/String;)Lbqk$a;	e	func_175989_e
-	m	()Lbqk$c;	h	func_153000_j
-	m	(Ljava/lang/String;)Z	j	func_152986_d
-	m	(Ljava/lang/String;)Z	l	func_175991_l
-	m	()Z	n	func_175984_n
-	m	(Ljava/lang/String;)V	n	func_152995_h
-	m	()Z	o	func_152993_m
-	m	()V	p	func_175988_p
-	m	()V	q	func_152997_n
-	m	()V	r	func_153001_r
-	m	()V	s	func_152988_s
-	m	()V	t	func_152996_t
-	f	Lbqk$e;	a	field_153003_a
-	f	Ljava/lang/String;	b	field_153004_b
-	f	Ljava/lang/String;	c	field_153006_d
-	f	Ljava/lang/String;	d	field_153007_e
-	f	Ltv/twitch/Core;	e	field_175992_e
-	f	Ltv/twitch/chat/Chat;	f	field_153008_f
-	f	Lbqk$c;	g	field_153011_i
-	f	Ltv/twitch/AuthToken;	h	field_153012_j
-	f	Ljava/util/HashMap;	i	field_175998_i
-	f	I	j	field_153015_m
-	f	Lbqk$d;	k	field_175997_k
-	f	Lbqk$d;	l	field_175995_l
-	f	Ltv/twitch/chat/ChatEmoticonData;	m	field_175996_m
-	f	I	n	field_175993_n
-	f	I	o	field_175994_o
-	f	Ltv/twitch/chat/IChatAPIListener;	p	field_175999_p
-	f	Lorg/apache/logging/log4j/Logger;	q	LOGGER
-c	bqk$1	net/minecraft/client/stream/ChatController$1
-	f	Lbqk;	a	field_176000_a
-c	bqk$2	net/minecraft/client/stream/ChatController$2
-	f	[I	a	field_175976_a
-	f	[I	b	field_175974_b
-	f	[I	c	field_175975_c
-c	bqk$a	net/minecraft/client/stream/ChatController$EnumChannelState
-	f	Lbqk$a;	a	Created
-	f	Lbqk$a;	b	Connecting
-	f	Lbqk$a;	c	Connected
-	f	Lbqk$a;	d	Disconnecting
-	f	Lbqk$a;	e	Disconnected
-	f	[Lbqk$a;	f	$VALUES
-c	bqk$b	net/minecraft/client/stream/ChatController$ChatChannelListener
-	m	()Lbqk$a;	a	func_176040_a
-	m	(Lbqk$a;)V	a	func_176035_a
-	m	(Ljava/lang/String;)V	a	func_176032_a
-	m	(Z)Z	a	func_176038_a
-	m	(Ljava/lang/String;)Z	b	func_176037_b
-	m	(Ljava/lang/String;)V	c	func_176031_c
-	m	(Ljava/lang/String;)V	d	func_176036_d
-	m	()Z	g	func_176034_g
-	m	()V	h	func_176041_h
-	m	()V	i	func_176039_i
-	m	()V	j	func_176033_j
-	m	()V	k	func_176030_k
-	f	Ljava/lang/String;	a	field_176048_a
-	f	Z	b	field_176046_b
-	f	Lbqk$a;	c	field_176047_c
-	f	Ljava/util/List;	d	field_176044_d
-	f	Ljava/util/LinkedList;	e	field_176045_e
-	f	Ljava/util/LinkedList;	f	field_176042_f
-	f	Ltv/twitch/chat/ChatBadgeData;	g	field_176043_g
-	f	Lbqk;	h	field_176049_h
-c	bqk$c	net/minecraft/client/stream/ChatController$ChatState
-	f	Lbqk$c;	a	Uninitialized
-	f	Lbqk$c;	b	Initializing
-	f	Lbqk$c;	c	Initialized
-	f	Lbqk$c;	d	ShuttingDown
-	f	[Lbqk$c;	e	$VALUES
-c	bqk$d	net/minecraft/client/stream/ChatController$EnumEmoticonMode
-	f	Lbqk$d;	a	None
-	f	Lbqk$d;	b	Url
-	f	Lbqk$d;	c	TextureAtlas
-	f	[Lbqk$d;	d	$VALUES
-c	bqk$e	net/minecraft/client/stream/ChatController$ChatListener
-	m	(Lbqk$c;)V	a	func_176017_a
-	m	(Ljava/lang/String;)V	a	func_180606_a
-	m	(Ljava/lang/String;Ljava/lang/String;)V	a	func_176019_a
-	m	(Ljava/lang/String;[Ltv/twitch/chat/ChatRawMessage;)V	a	func_180605_a
-	m	(Ljava/lang/String;[Ltv/twitch/chat/ChatTokenizedMessage;)V	a	func_176025_a
-	m	(Ljava/lang/String;[Ltv/twitch/chat/ChatUserInfo;[Ltv/twitch/chat/ChatUserInfo;[Ltv/twitch/chat/ChatUserInfo;)V	a	func_176018_a
-	m	(Ljava/lang/String;)V	b	func_180607_b
-	m	(Ljava/lang/String;)V	c	func_176016_c
-	m	()V	d	func_176021_d
-	m	(Ljava/lang/String;)V	d	func_176020_d
-	m	(Ltv/twitch/ErrorCode;)V	d	func_176023_d
-	m	()V	e	func_176024_e
-	m	(Ltv/twitch/ErrorCode;)V	e	func_176022_e
-c	bql	net/minecraft/client/stream/IngestServerTester
-	m	(Lbql$a;)V	a	func_153042_a
-	m	(Lbql$b;)V	a	func_153034_a
-	m	(Ltv/twitch/broadcast/IngestServer;)Z	a	func_153036_a
-	m	(Ltv/twitch/broadcast/IngestServer;)V	b	func_153035_b
-	m	()Ltv/twitch/broadcast/IngestServer;	c	func_153040_c
-	m	(Ltv/twitch/broadcast/IngestServer;)Z	c	func_153029_c
-	m	()I	d	func_153028_p
-	m	()Z	f	func_153032_e
-	m	()F	i	func_153030_h
-	m	()V	j	func_176004_j
-	m	()V	k	func_153041_j
-	m	()V	m	func_153039_l
-	m	()J	n	func_153037_m
-	m	()V	o	func_153038_n
-	m	()V	p	func_153031_o
-	f	Ltv/twitch/broadcast/IStreamCallbacks;	A	field_176005_A
-	f	Ltv/twitch/broadcast/IStatCallbacks;	B	field_176006_B
-	f	Lbql$a;	a	field_153044_b
-	f	Ltv/twitch/broadcast/Stream;	b	field_153045_c
-	f	Ltv/twitch/broadcast/IngestList;	c	field_153046_d
-	f	Lbql$b;	d	field_153047_e
-	f	J	e	field_153048_f
-	f	J	f	field_153049_g
-	f	J	g	field_153050_h
-	f	Ltv/twitch/broadcast/RTMPState;	h	field_153051_i
-	f	Ltv/twitch/broadcast/VideoParams;	i	field_153052_j
-	f	Ltv/twitch/broadcast/AudioParams;	j	audioParameters
-	f	J	k	field_153054_l
-	f	Ljava/util/List;	l	field_153055_m
-	f	Z	m	field_153056_n
-	f	Ltv/twitch/broadcast/IStreamCallbacks;	n	field_153057_o
-	f	Ltv/twitch/broadcast/IStatCallbacks;	o	field_153058_p
-	f	Ltv/twitch/broadcast/IngestServer;	p	field_153059_q
-	f	Z	q	field_153060_r
-	f	Z	r	field_153061_s
-	f	I	s	field_153062_t
-	f	I	t	field_153063_u
-	f	J	u	field_153064_v
-	f	F	v	field_153065_w
-	f	F	w	field_153066_x
-	f	Z	x	field_176009_x
-	f	Z	y	field_176008_y
-	f	Z	z	field_176007_z
-c	bql$1	net/minecraft/client/stream/IngestServerTester$1
-	f	Lbql;	a	field_176010_a
-c	bql$2	net/minecraft/client/stream/IngestServerTester$2
-	f	Lbql;	a	field_176001_a
-c	bql$3	net/minecraft/client/stream/IngestServerTester$3
-	f	[I	a	field_176003_a
-	f	[I	b	field_176002_b
-c	bql$a	net/minecraft/client/stream/IngestServerTester$IngestTestListener
-	m	(Lbql;Lbql$b;)V	a	func_152907_a
-c	bql$b	net/minecraft/client/stream/IngestServerTester$IngestTestState
-	f	Lbql$b;	a	Uninitalized
-	f	Lbql$b;	b	Starting
-	f	Lbql$b;	c	ConnectingToServer
-	f	Lbql$b;	d	TestingServer
-	f	Lbql$b;	e	DoneTestingServer
-	f	Lbql$b;	f	Finished
-	f	Lbql$b;	g	Cancelling
-	f	Lbql$b;	h	Cancelled
-	f	Lbql$b;	i	Failed
-	f	[Lbql$b;	j	$VALUES
-c	bqm	net/minecraft/client/stream/IStream
-	m	()Z	A	func_152928_D
-	m	()Ltv/twitch/ErrorCode;	B	func_152912_E
-	m	()Z	C	func_152913_F
-	m	()Z	D	func_152929_G
-	m	()Lbqm$a;	E	func_152918_H
-	m	(Lbqh;J)V	a	func_152911_a
-	m	(Lbqh;JJ)V	a	func_176026_a
-	m	(Z)V	a	muteMicrophone
-	m	(Ljava/lang/String;)Ltv/twitch/chat/ChatUserInfo;	e	func_152926_a
-	m	()V	f	shutdownStream
-	m	(Ljava/lang/String;)V	f	func_152917_b
-	m	()V	g	func_152935_j
-	m	()V	h	func_152922_k
-	m	()Z	i	func_152936_l
-	m	()Z	j	isReadyToBroadcast
-	m	()Z	k	isBroadcasting
-	m	()Z	l	isPaused
-	m	()V	m	requestCommercial
-	m	()V	n	pause
-	m	()V	o	unpause
-	m	()V	p	updateStreamVolume
-	m	()V	q	func_152930_t
-	m	()V	r	stopBroadcasting
-	m	()[Ltv/twitch/broadcast/IngestServer;	s	func_152925_v
-	m	()V	u	func_152909_x
-	m	()Lbql;	v	func_152932_y
-	m	()Z	w	func_152908_z
-	m	()I	x	func_152920_A
-	m	()Z	y	func_152927_B
-	m	()Ljava/lang/String;	z	func_152921_C
-c	bqm$a	net/minecraft/client/stream/IStream$AuthFailureReason
-	f	Lbqm$a;	a	ERROR
-	f	Lbqm$a;	b	INVALID_TOKEN
-	f	[Lbqm$a;	c	$VALUES
-c	bqn	net/minecraft/client/stream/TwitchStream
-	m	()Z	A	func_152928_D
-	m	()Ltv/twitch/ErrorCode;	B	func_152912_E
-	m	()Z	C	func_152913_F
-	m	()Z	D	func_152929_G
-	m	()Lbqm$a;	E	func_152918_H
-	m	()V	F	func_152942_I
-	m	()Lorg/apache/logging/log4j/Logger;	G	access$000
-	m	()V	a	func_152895_a
-	m	(F)I	a	formatStreamFps
-	m	(Lbqh;J)V	a	func_152911_a
-	m	(Lbqh;JJ)V	a	func_176026_a
-	m	(Lbqj$a;)V	a	func_152891_a
-	m	(Lbqk$c;)V	a	func_176017_a
-	m	(Lbql;Lbql$b;)V	a	func_152907_a
-	m	(Lbqn;)Lbqj;	a	access$100
-	m	(Lbqn;Lbqm$a;)Lbqm$a;	a	access$302
-	m	(Ljava/lang/String;)V	a	func_180606_a
-	m	(Ljava/lang/String;Ljava/lang/String;)V	a	func_176019_a
-	m	(Ljava/lang/String;Ltv/twitch/chat/ChatRawMessage;)V	a	func_176027_a
-	m	(Ljava/lang/String;[Ltv/twitch/chat/ChatRawMessage;)V	a	func_180605_a
-	m	(Ljava/lang/String;[Ltv/twitch/chat/ChatTokenizedMessage;)V	a	func_176025_a
-	m	(Ljava/lang/String;[Ltv/twitch/chat/ChatUserInfo;[Ltv/twitch/chat/ChatUserInfo;[Ltv/twitch/chat/ChatUserInfo;)V	a	func_176018_a
-	m	(Ljava/util/Set;Ljava/util/Set;I)Z	a	func_176028_a
-	m	(Ltv/twitch/ErrorCode;)V	a	func_152897_a
-	m	(Ltv/twitch/ErrorCode;Ltv/twitch/AuthToken;)V	a	func_152900_a
-	m	(Ltv/twitch/ErrorCode;[Ltv/twitch/broadcast/GameInfo;)V	a	func_152898_a
-	m	(Ltv/twitch/broadcast/IngestList;)V	a	func_152896_a
-	m	(Ltv/twitch/broadcast/StreamInfo;)V	a	func_152894_a
-	m	(Z)V	a	muteMicrophone
-	m	()V	b	func_152899_b
-	m	(F)I	b	formatStreamKbps
-	m	(Lbqn;)Lbqk;	b	access$200
-	m	(Ljava/lang/String;)V	b	func_180607_b
-	m	(Ltv/twitch/ErrorCode;)V	b	func_152893_b
-	m	()V	c	func_152901_c
-	m	(F)F	c	formatStreamBps
-	m	(Ljava/lang/String;)V	c	func_176016_c
-	m	(Ltv/twitch/ErrorCode;)V	c	func_152892_c
-	m	()V	d	func_176021_d
-	m	(Ljava/lang/String;)V	d	func_176020_d
-	m	(Ltv/twitch/ErrorCode;)V	d	func_176023_d
-	m	()V	e	func_176024_e
-	m	(Ljava/lang/String;)Ltv/twitch/chat/ChatUserInfo;	e	func_152926_a
-	m	(Ltv/twitch/ErrorCode;)V	e	func_176022_e
-	m	()V	f	shutdownStream
-	m	(Ljava/lang/String;)V	f	func_152917_b
-	m	()V	g	func_152935_j
-	m	()V	h	func_152922_k
-	m	()Z	i	func_152936_l
-	m	()Z	j	isReadyToBroadcast
-	m	()Z	k	isBroadcasting
-	m	()Z	l	isPaused
-	m	()V	m	requestCommercial
-	m	()V	n	pause
-	m	()V	o	unpause
-	m	()V	p	updateStreamVolume
-	m	()V	q	func_152930_t
-	m	()V	r	stopBroadcasting
-	m	()[Ltv/twitch/broadcast/IngestServer;	s	func_152925_v
-	m	()V	u	func_152909_x
-	m	()Lbql;	v	func_152932_y
-	m	()Z	w	func_152908_z
-	m	()I	x	func_152920_A
-	m	()Z	y	func_152927_B
-	m	()Ljava/lang/String;	z	func_152921_C
-	f	Lorg/apache/logging/log4j/Marker;	a	STREAM_MARKER
-	f	Lorg/apache/logging/log4j/Logger;	b	LOGGER
-	f	Lbqj;	c	broadcastController
-	f	Lbqk;	d	chatController
-	f	Ljava/lang/String;	e	field_176029_e
-	f	Lave;	f	mc
-	f	Leu;	g	twitchComponent
-	f	Ljava/util/Map;	h	field_152955_g
-	f	Lbfw;	i	framebuffer
-	f	Z	j	field_152957_i
-	f	I	k	targetFPS
-	f	J	l	field_152959_k
-	f	Z	m	field_152960_l
-	f	Z	n	loggedIn
-	f	Z	o	field_152962_n
-	f	Z	p	field_152963_o
-	f	Lbqm$a;	q	authFailureReason
-	f	Z	r	field_152965_q
-c	bqn$1	net/minecraft/client/stream/TwitchStream$1
-	f	Lcom/mojang/authlib/properties/Property;	a	field_153083_a
-	f	Lbqn;	b	field_153084_b
-c	bqn$1$1	net/minecraft/client/stream/TwitchStream$1$1
-	f	Lbqn$1;	a	field_153082_a
-c	bqo	net/minecraft/client/stream/NullStream
-	m	()Z	A	func_152928_D
-	m	()Ltv/twitch/ErrorCode;	B	func_152912_E
-	m	()Z	C	func_152913_F
-	m	()Z	D	func_152929_G
-	m	()Lbqm$a;	E	func_152918_H
-	m	()Ljava/lang/Throwable;	a	func_152937_a
-	m	(Lbqh;J)V	a	func_152911_a
-	m	(Lbqh;JJ)V	a	func_176026_a
-	m	(Z)V	a	muteMicrophone
-	m	(Ljava/lang/String;)Ltv/twitch/chat/ChatUserInfo;	e	func_152926_a
-	m	()V	f	shutdownStream
-	m	(Ljava/lang/String;)V	f	func_152917_b
-	m	()V	g	func_152935_j
-	m	()V	h	func_152922_k
-	m	()Z	i	func_152936_l
-	m	()Z	j	isReadyToBroadcast
-	m	()Z	k	isBroadcasting
-	m	()Z	l	isPaused
-	m	()V	m	requestCommercial
-	m	()V	n	pause
-	m	()V	o	unpause
-	m	()V	p	updateStreamVolume
-	m	()V	q	func_152930_t
-	m	()V	r	stopBroadcasting
-	m	()[Ltv/twitch/broadcast/IngestServer;	s	func_152925_v
-	m	()V	u	func_152909_x
-	m	()Lbql;	v	func_152932_y
-	m	()Z	w	func_152908_z
-	m	()I	x	func_152920_A
-	m	()Z	y	func_152927_B
-	m	()Ljava/lang/String;	z	func_152921_C
-	f	Ljava/lang/Throwable;	a	field_152938_a
-c	bqq	net/minecraft/util/Matrix4f
-c	bqr	net/minecraft/util/Vector3d
-	f	D	a	x
-	f	D	b	y
-	f	D	c	z
-c	bqs	net/minecraft/client/renderer/OpenGlHelper
-	m	()V	a	initializeTextures
-	m	(I)V	a	glDeleteShader
-	m	(IFF)V	a	setLightmapTextureCoords
-	m	(II)I	a	glGetProgrami
-	m	(IIII)V	a	glRenderbufferStorage
-	m	(IIIII)V	a	glFramebufferTexture2D
-	m	(ILjava/lang/CharSequence;)I	a	glGetUniformLocation
-	m	(ILjava/nio/ByteBuffer;)V	a	glShaderSource
-	m	(ILjava/nio/ByteBuffer;I)V	a	glBufferData
-	m	(ILjava/nio/FloatBuffer;)V	a	glUniform1
-	m	(ILjava/nio/IntBuffer;)V	a	glUniform1
-	m	(IZLjava/nio/FloatBuffer;)V	a	glUniformMatrix2
-	m	()Z	b	areShadersSupported
-	m	(I)I	b	glCreateShader
-	m	(II)V	b	glAttachShader
-	m	(IIII)V	b	glFramebufferRenderbuffer
-	m	(ILjava/lang/CharSequence;)I	b	glGetAttribLocation
-	m	(ILjava/nio/FloatBuffer;)V	b	glUniform2
-	m	(ILjava/nio/IntBuffer;)V	b	glUniform2
-	m	(IZLjava/nio/FloatBuffer;)V	b	glUniformMatrix3
-	m	()Ljava/lang/String;	c	getLogText
-	m	(I)V	c	glCompileShader
-	m	(II)I	c	glGetShaderi
-	m	(IIII)V	c	glBlendFunc
-	m	(ILjava/nio/FloatBuffer;)V	c	glUniform3
-	m	(ILjava/nio/IntBuffer;)V	c	glUniform3
-	m	(IZLjava/nio/FloatBuffer;)V	c	glUniformMatrix4
-	m	()I	d	glCreateProgram
-	m	(I)V	d	glUseProgram
-	m	(II)Ljava/lang/String;	d	glGetShaderInfoLog
-	m	(ILjava/nio/FloatBuffer;)V	d	glUniform4
-	m	(ILjava/nio/IntBuffer;)V	d	glUniform4
-	m	()I	e	glGenBuffers
-	m	(I)V	e	glDeleteProgram
-	m	(II)Ljava/lang/String;	e	glGetProgramInfoLog
-	m	()Z	f	useVbo
-	m	(I)V	f	glLinkProgram
-	m	(II)V	f	glUniform1i
-	m	()I	g	glGenFramebuffers
-	m	(I)V	g	glDeleteBuffers
-	m	(II)V	g	glBindBuffer
-	m	()I	h	glGenRenderbuffers
-	m	(I)V	h	glDeleteRenderbuffers
-	m	(II)V	h	glBindFramebuffer
-	m	()Z	i	isFramebufferEnabled
-	m	(I)V	i	glDeleteFramebuffers
-	m	(II)V	i	glBindRenderbuffer
-	m	()Ljava/lang/String;	j	getCpu
-	m	(I)I	j	glCheckFramebufferStatus
-	m	(I)V	k	setActiveTexture
-	m	(I)V	l	setClientActiveTexture
-	f	I	A	GL_SOURCE1_RGB
-	f	I	B	GL_SOURCE2_RGB
-	f	I	C	GL_OPERAND0_RGB
-	f	I	D	GL_OPERAND1_RGB
-	f	I	E	GL_OPERAND2_RGB
-	f	I	F	GL_COMBINE_ALPHA
-	f	I	G	GL_SOURCE0_ALPHA
-	f	I	H	GL_SOURCE1_ALPHA
-	f	I	I	GL_SOURCE2_ALPHA
-	f	I	J	GL_OPERAND0_ALPHA
-	f	I	K	GL_OPERAND1_ALPHA
-	f	I	L	GL_OPERAND2_ALPHA
-	f	Z	M	extBlendFuncSeparate
-	f	Z	N	openGL21
-	f	Z	O	shadersSupported
-	f	Z	P	vboSupported
-	f	Z	Q	vboSupportedAti
-	f	I	R	GL_ARRAY_BUFFER
-	f	I	S	GL_STATIC_DRAW
-	f	I	T	framebufferType
-	f	Z	U	shadersAvailable
-	f	Z	V	arbShaders
-	f	Z	W	arbMultitexture
-	f	Z	X	arbTextureEnvCombine
-	f	Z	Y	openGL14
-	f	Ljava/lang/String;	Z	logText
-	f	Z	a	nvidia
-	f	Ljava/lang/String;	aa	cpu
-	f	Z	ab	arbVbo
-	f	Z	b	ati
-	f	I	c	GL_FRAMEBUFFER
-	f	I	d	GL_RENDERBUFFER
-	f	I	e	GL_COLOR_ATTACHMENT0
-	f	I	f	GL_DEPTH_ATTACHMENT
-	f	I	g	GL_FRAMEBUFFER_COMPLETE
-	f	I	h	GL_FB_INCOMPLETE_ATTACHMENT
-	f	I	i	GL_FB_INCOMPLETE_MISS_ATTACH
-	f	I	j	GL_FB_INCOMPLETE_DRAW_BUFFER
-	f	I	k	GL_FB_INCOMPLETE_READ_BUFFER
-	f	Z	l	framebufferSupported
-	f	I	m	GL_LINK_STATUS
-	f	I	n	GL_COMPILE_STATUS
-	f	I	o	GL_VERTEX_SHADER
-	f	I	p	GL_FRAGMENT_SHADER
-	f	I	q	defaultTexUnit
-	f	I	r	lightmapTexUnit
-	f	I	s	GL_TEXTURE2
-	f	I	t	GL_COMBINE
-	f	I	u	GL_INTERPOLATE
-	f	I	v	GL_PRIMARY_COLOR
-	f	I	w	GL_CONSTANT
-	f	I	x	GL_PREVIOUS
-	f	I	y	GL_COMBINE_RGB
-	f	I	z	GL_SOURCE0_RGB
-c	net/minecraft/client/main/Main	net/minecraft/client/main/Main
-	m	(Ljava/lang/String;)Z	a	isNullOrEmpty
-c	net/minecraft/client/main/Main$1	net/minecraft/client/main/Main$1
-	f	Ljava/lang/String;	a	field_178749_a
-	f	Ljava/lang/String;	b	field_178748_b
-c	net/minecraft/realms/RealmsConnect	net/minecraft/realms/RealmsConnect
-c	net/minecraft/realms/RealmsConnect$1	net/minecraft/realms/RealmsConnect$1
-	f	Ljava/lang/String;	a	field_154355_a
-	f	I	b	field_154356_b
-	f	Lnet/minecraft/realms/RealmsConnect;	c	field_154357_c
-c	net/minecraft/server/MinecraftServer	net/minecraft/server/MinecraftServer
-	m	()V	A	tick
-	m	()V	B	updateTimeLightAndEntities
-	m	()Z	C	getAllowNether
-	m	()V	D	startServerThread
-	m	()Ljava/lang/String;	E	getHostname
-	m	()I	F	getPort
-	m	()Ljava/lang/String;	G	getMotd
-	m	()Ljava/lang/String;	H	getMinecraftVersion
-	m	()I	I	getCurrentPlayerCount
-	m	()I	J	getMaxPlayers
-	m	()[Ljava/lang/String;	K	getAllUsernames
-	m	()[Lcom/mojang/authlib/GameProfile;	L	getGameProfiles
-	m	()Z	M	isDebuggingEnabled
-	m	()Lnet/minecraft/server/MinecraftServer;	N	getServer
-	m	()Z	O	isAnvilFileSet
-	m	()Ll;	P	getCommandManager
-	m	()Ljava/security/KeyPair;	Q	getKeyPair
-	m	()I	R	getServerPort
-	m	()Ljava/lang/String;	S	getServerOwner
-	m	()Z	T	isSinglePlayer
-	m	()Ljava/lang/String;	U	getFolderName
-	m	()Ljava/lang/String;	V	getWorldName
-	m	()Z	W	allowSpawnMonsters
-	m	()Z	X	isDemo
-	m	()Latr;	Y	getActiveAnvilConverter
-	m	(I)Lle;	a	worldServerForDimension
-	m	(ILjava/lang/String;)Z	a	canCommandSenderUseCommand
-	m	(Ladm;Lcj;Lwn;)Z	a	isBlockProtected
-	m	(Ladp$a;)V	a	setGameType
-	m	(Ladp$a;Z)Ljava/lang/String;	a	shareToLAN
-	m	(Lb;)V	a	finalTick
-	m	(Leu;)V	a	addChatMessage
-	m	(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;	a	addScheduledTask
-	m	(Ljava/lang/String;)V	a	convertMapIfNeeded
-	m	(Ljava/lang/String;Latp;)V	a	setResourcePackFromWorld
-	m	(Ljava/lang/String;Ljava/lang/String;JLadr;Ljava/lang/String;)V	a	loadAllWorlds
-	m	(Ljava/security/KeyPair;)V	a	setKeyPair
-	m	(Ljava/util/UUID;)Lpk;	a	getEntityFromUuid
-	m	(Ljava/util/concurrent/Callable;)Lcom/google/common/util/concurrent/ListenableFuture;	a	callFromMainThread
-	m	(Ljs;)V	a	addFaviconToStatusResponse
-	m	(Lkm;)V	a	registerTickable
-	m	(Llx;)V	a	setConfigManager
-	m	(Lm;Ljava/lang/String;Lcj;)Ljava/util/List;	a	getTabCompletions
-	m	(Ln$a;I)V	a	setCommandStat
-	m	(Lnet/minecraft/server/MinecraftServer;)Llx;	a	access$100
-	m	(Loj;)V	a	setDifficultyForAllWorlds
-	m	(Lor;)V	a	addServerStatsToSnooper
-	m	(Z)V	a	saveAllWorlds
-	m	()I	aA	getMaxPlayerIdleMinutes
-	m	()Z	aB	isAnnouncingPlayerAchievements
-	m	()Lcom/mojang/authlib/minecraft/MinecraftSessionService;	aD	getMinecraftSessionService
-	m	()Lcom/mojang/authlib/GameProfileRepository;	aE	getGameProfileRepository
-	m	()Llt;	aF	getPlayerProfileCache
-	m	()Ljs;	aG	getServerStatusResponse
-	m	()V	aH	refreshStatusNextTick
-	m	()I	aI	getMaxWorldSize
-	m	()Z	aJ	isCallingFromMinecraftThread
-	m	()I	aK	getNetworkCompressionTreshold
-	m	()J	aL	getCurrentTime
-	m	()Ljava/lang/Thread;	aM	getServerThread
-	m	()Lorg/apache/logging/log4j/Logger;	aN	access$000
-	m	(Ljava/lang/String;I)V	a_	outputPercentRemaining
-	m	(Ljava/lang/String;Ljava/lang/String;)V	a_	setResourcePack
-	m	()V	aa	deleteWorldAndStopServer
-	m	()Ljava/lang/String;	ab	getResourcePackUrl
-	m	()Ljava/lang/String;	ac	getResourcePackHash
-	m	()Z	ad	isSnooperEnabled
-	m	()Z	ae	isDedicatedServer
-	m	()Z	af	isServerInOnlineMode
-	m	()Z	ag	getCanSpawnAnimals
-	m	()Z	ah	getCanSpawnNPCs
-	m	()Z	ai	shouldUseNativeTransport
-	m	()Z	aj	isPVPEnabled
-	m	()Z	ak	isFlightAllowed
-	m	()Z	al	isCommandBlockEnabled
-	m	()Ljava/lang/String;	am	getMOTD
-	m	()I	an	getBuildLimit
-	m	()Z	ao	isServerStopped
-	m	()Llx;	ap	getConfigurationManager
-	m	()Lll;	aq	getNetworkSystem
-	m	()Z	ar	serverIsInRunLoop
-	m	()Z	as	getGuiEnabled
-	m	()I	at	getTickCounter
-	m	()V	au	enableProfiling
-	m	()Lor;	av	getPlayerUsageSnooper
-	m	()I	aw	getSpawnProtectionSize
-	m	()Z	ax	getForceGamemode
-	m	()Ljava/net/Proxy;	ay	getServerProxy
-	m	()J	az	getCurrentTimeMillis
-	m	(I)V	b	setServerPort
-	m	(Lb;)Lb;	b	addServerInfoToCrashReport
-	m	(Ljava/lang/String;)V	b	setUserMessage
-	m	(Lor;)V	b	addServerTypeToSnooper
-	m	(Z)V	b	setDemo
-	m	()Lcj;	c	getPosition
-	m	(I)V	c	setBuildLimit
-	m	(Ljava/lang/String;)V	c	setHostname
-	m	(Z)V	c	canCreateBonusChest
-	m	()Laui;	d	getPositionVector
-	m	(I)V	d	setPlayerIdleTimeout
-	m	(Ljava/lang/String;)Ljava/io/File;	d	getFile
-	m	(Z)V	d	setOnlineMode
-	m	()Ladm;	e	getEntityWorld
-	m	(Ljava/lang/String;)V	e	logInfo
-	m	(Z)V	e	setCanSpawnAnimals
-	m	()Ljava/lang/String;	e_	getName
-	m	()Lpk;	f	getCommandSenderEntity
-	m	(Ljava/lang/String;)V	f	logWarning
-	m	(Z)V	f	setCanSpawnNPCs
-	m	()Leu;	f_	getDisplayName
-	m	(Ljava/lang/String;)V	g	logSevere
-	m	(Z)V	g	setAllowPvp
-	m	()Lbd;	h	createNewCommandManager
-	m	(Ljava/lang/String;)V	h	logDebug
-	m	(Z)V	h	setAllowFlight
-	m	()Z	i	startServer
-	m	(Ljava/lang/String;)V	i	setServerOwner
-	m	(Z)V	i	setForceGamemode
-	m	()Ljava/lang/String;	j	getUserMessage
-	m	(Ljava/lang/String;)V	j	setFolderName
-	m	()V	k	initialWorldChunkLoad
-	m	(Ljava/lang/String;)V	k	setWorldName
-	m	()Z	l	canStructuresSpawn
-	m	(Ljava/lang/String;)V	l	setMOTD
-	m	()Ladp$a;	m	getGameType
-	m	()Loj;	n	getDifficulty
-	m	()Z	o	isHardcore
-	m	()I	p	getOpPermissionLevel
-	m	()Z	q	shouldBroadcastRconToOps
-	m	()Z	r	shouldBroadcastConsoleToOps
-	m	()V	s	clearCurrentTask
-	m	()V	t	stopServer
-	m	()Ljava/lang/String;	u	getServerHostname
-	m	()Z	u_	sendCommandFeedback
-	m	()Z	v	isServerRunning
-	m	()V	w	initiateShutdown
-	m	()V	x	setInstance
-	m	()Ljava/io/File;	y	getDataDirectory
-	m	()V	z	systemExitNow
-	f	Z	A	canSpawnAnimals
-	f	Z	B	canSpawnNPCs
-	f	Z	C	pvpEnabled
-	f	Z	D	allowFlight
-	f	Ljava/lang/String;	E	motd
-	f	I	F	buildLimit
-	f	I	G	maxPlayerIdleMinutes
-	f	Ljava/security/KeyPair;	H	serverKeyPair
-	f	Ljava/lang/String;	I	serverOwner
-	f	Ljava/lang/String;	J	folderName
-	f	Ljava/lang/String;	K	worldName
-	f	Z	L	isDemo
-	f	Z	M	enableBonusChest
-	f	Z	N	worldIsBeingDeleted
-	f	Ljava/lang/String;	O	resourcePackUrl
-	f	Ljava/lang/String;	P	resourcePackHash
-	f	Z	Q	serverIsRunning
-	f	J	R	timeOfLastWarning
-	f	Ljava/lang/String;	S	userMessage
-	f	Z	T	startProfiling
-	f	Z	U	isGamemodeForced
-	f	Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;	V	authService
-	f	Lcom/mojang/authlib/minecraft/MinecraftSessionService;	W	sessionService
-	f	J	X	nanoTimeSinceStatusRefresh
-	f	Lcom/mojang/authlib/GameProfileRepository;	Y	profileRepo
-	f	Llt;	Z	profileCache
-	f	Ljava/io/File;	a	USER_CACHE_FILE
-	f	Ljava/lang/Thread;	aa	serverThread
-	f	J	ab	currentTime
-	f	Ll;	b	commandManager
-	f	Lnt;	c	theProfiler
-	f	[Lle;	d	worldServers
-	f	Ljava/net/Proxy;	e	serverProxy
-	f	Ljava/lang/String;	f	currentTask
-	f	I	g	percentDone
-	f	[J	h	tickTimeArray
-	f	[[J	i	timeOfLastDimensionTick
-	f	Ljava/util/Queue;	j	futureTaskQueue
-	f	Lorg/apache/logging/log4j/Logger;	k	logger
-	f	Lnet/minecraft/server/MinecraftServer;	l	mcServer
-	f	Latr;	m	anvilConverterForAnvilFile
-	f	Lor;	n	usageSnooper
-	f	Ljava/io/File;	o	anvilFile
-	f	Ljava/util/List;	p	playersOnline
-	f	Lll;	q	networkSystem
-	f	Ljs;	r	statusResponse
-	f	Ljava/util/Random;	s	random
-	f	I	u	serverPort
-	f	Llx;	v	serverConfigManager
-	f	Z	w	serverRunning
-	f	Z	x	serverStopped
-	f	I	y	tickCounter
-	f	Z	z	onlineMode
-c	net/minecraft/server/MinecraftServer$1	net/minecraft/server/MinecraftServer$1
-	m	()V	a	func_146586_a
-	m	(I)V	a	func_73718_a
-	m	(Ljava/lang/String;)V	a	func_73720_a
-	m	(Ljava/lang/String;)V	b	func_73721_b
-	m	(Ljava/lang/String;)V	c	func_73719_c
-	f	Lnet/minecraft/server/MinecraftServer;	a	field_74267_a
-	f	J	b	field_96245_b
-c	net/minecraft/server/MinecraftServer$2	net/minecraft/server/MinecraftServer$2
-c	net/minecraft/server/MinecraftServer$3	net/minecraft/server/MinecraftServer$3
-	m	()Ljava/lang/String;	a	call
-	f	Lnet/minecraft/server/MinecraftServer;	a	field_73716_a
-c	net/minecraft/server/MinecraftServer$4	net/minecraft/server/MinecraftServer$4
-	m	()Ljava/lang/String;	a	call
-	f	Lnet/minecraft/server/MinecraftServer;	a	field_74274_a
-c	net/minecraft/realms/RealmsServerStatusPinger	net/minecraft/realms/RealmsServerStatusPinger
-c	net/minecraft/realms/RealmsServerStatusPinger$1	net/minecraft/realms/RealmsServerStatusPinger$1
-	m	(Leu;)V	a	func_147231_a
-	m	(Ljq;)V	a	func_147398_a
-	m	(Ljr;)V	a	func_147397_a
-	f	Lnet/minecraft/realms/RealmsServerPing;	a	field_154341_a
-	f	Lek;	b	field_154342_b
-	f	Ljava/lang/String;	c	field_154343_c
-	f	Lnet/minecraft/realms/RealmsServerStatusPinger;	d	field_154344_d
-	f	Z	e	field_154345_e
