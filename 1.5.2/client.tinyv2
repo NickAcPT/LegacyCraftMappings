@@ -4995,7 +4995,7 @@ c	arg	net/minecraft/scoreboard/Score
 	f	Ljava/lang/String;	d	field_96654_d
 	m	()Larj;	f	func_96650_f
 	f	I	e	field_96655_e
-	m	()I	c	getScoreValye
+	m	()I	c	getScoreValue
 c	arj	net/minecraft/scoreboard/Scoreboard
 	m	(Ljava/lang/String;)I	j	getObjectiveDisplaySlotNumber
 	m	()Ljava/util/Collection;	g	func_96525_g
